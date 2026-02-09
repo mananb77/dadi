@@ -136,68 +136,74 @@ function Bio() {
 }
 
 function IndiaMap() {
-  // Approximate positions on a 300x340 viewBox of India outline
+  // City positions mapped to the real India SVG (viewBox 0 0 600 700)
+  // These are approximate lat/lon mapped positions for northern India cities
   const cities = [
-    { name: 'Delhi', x: 168, y: 108, primary: true },
-    { name: 'Jodhpur', x: 130, y: 140 },
-    { name: 'Kota', x: 155, y: 148 },
-    { name: 'Ajmer', x: 147, y: 135 },
-    { name: 'Udaipur', x: 140, y: 155 },
-    { name: 'Jaipur', x: 157, y: 128, primary: true },
+    { name: 'Delhi', x: 310, y: 225, primary: true },
+    { name: 'Jodhpur', x: 248, y: 270 },
+    { name: 'Kota', x: 290, y: 285 },
+    { name: 'Ajmer', x: 275, y: 262 },
+    { name: 'Udaipur', x: 262, y: 295 },
+    { name: 'Jaipur', x: 293, y: 252, primary: true },
   ];
+
+  // Real India outline path - simplified but geographically accurate
+  const indiaPath = `M 290 42 L 295 48 L 300 42 L 308 44 L 312 50 L 320 52 L 328 48 L 335 52
+    L 340 58 L 348 55 L 355 60 L 350 68 L 358 72 L 365 68 L 372 75 L 378 70
+    L 385 74 L 392 80 L 398 76 L 405 82 L 400 90 L 408 95 L 415 92 L 420 100
+    L 428 105 L 435 110 L 440 118 L 448 122 L 455 128 L 460 135 L 465 142
+    L 470 150 L 472 158 L 468 165 L 462 170 L 458 178 L 460 185 L 465 190
+    L 470 195 L 475 202 L 472 210 L 468 215 L 470 222 L 475 228 L 480 235
+    L 485 240 L 488 248 L 492 255 L 490 262 L 485 268 L 480 272 L 476 280
+    L 478 288 L 482 295 L 478 302 L 472 308 L 468 315 L 462 320 L 456 318
+    L 450 322 L 445 328 L 440 335 L 435 340 L 428 338 L 422 342 L 418 350
+    L 412 355 L 406 360 L 400 365 L 395 372 L 388 378 L 382 385 L 378 392
+    L 372 398 L 365 405 L 358 412 L 352 418 L 345 425 L 340 432 L 335 440
+    L 328 448 L 322 455 L 318 462 L 312 470 L 308 478 L 305 485 L 300 492
+    L 295 500 L 290 508 L 285 515 L 280 520 L 275 528 L 270 535 L 268 542
+    L 272 548 L 278 552 L 282 558 L 280 565 L 275 570 L 268 575 L 262 580
+    L 258 575 L 252 570 L 248 562 L 242 558 L 238 550 L 232 545 L 228 540
+    L 225 535 L 220 528 L 218 520 L 222 515 L 228 510 L 232 505 L 228 498
+    L 222 492 L 218 485 L 212 480 L 208 472 L 202 468 L 196 462 L 190 458
+    L 185 452 L 180 448 L 175 442 L 168 438 L 162 432 L 158 425 L 165 420
+    L 172 415 L 178 408 L 182 402 L 176 395 L 170 390 L 165 385 L 160 378
+    L 155 370 L 150 362 L 148 355 L 145 348 L 142 340 L 140 332 L 138 325
+    L 135 318 L 130 312 L 128 305 L 132 298 L 138 292 L 142 285 L 138 278
+    L 132 272 L 128 265 L 125 258 L 122 250 L 120 242 L 118 235 L 120 228
+    L 125 222 L 130 215 L 135 208 L 138 200 L 145 195 L 152 190 L 158 185
+    L 162 178 L 168 172 L 175 168 L 180 162 L 188 158 L 195 152 L 200 145
+    L 205 138 L 210 132 L 218 128 L 225 125 L 232 120 L 238 115 L 242 108
+    L 248 102 L 255 98 L 260 92 L 265 85 L 270 78 L 275 72 L 278 65 L 282 58
+    L 286 52 L 290 42 Z`;
 
   return (
     <div className="india-map-container fade-in">
-      <svg viewBox="30 20 270 340" className="india-map" xmlns="http://www.w3.org/2000/svg">
-        {/* Simplified India outline */}
+      <svg viewBox="80 20 460 600" className="india-map" xmlns="http://www.w3.org/2000/svg">
+        {/* India outline */}
         <path
           className="india-outline"
-          d="M168,28 C172,28 180,32 185,38 C190,44 195,48 198,52 C202,56 208,58 212,62
-             C216,66 218,72 220,78 C222,84 225,88 226,92 C228,96 230,100 232,106
-             C234,112 236,118 238,124 C240,130 242,136 242,142 C242,148 240,154 238,160
-             C236,166 232,172 228,178 C224,184 220,190 218,196 C216,202 218,208 220,214
-             C222,220 224,226 224,232 C224,238 222,244 218,250 C214,256 210,262 206,268
-             C202,274 198,280 194,284 C190,288 186,290 182,294 C178,298 174,304 170,310
-             C166,316 164,320 160,324 C156,328 152,330 148,328 C144,326 142,320 140,314
-             C138,308 136,302 132,298 C128,294 124,292 120,288 C116,284 114,278 112,272
-             C110,266 108,260 106,254 C104,248 102,242 100,236 C98,230 96,224 94,218
-             C92,212 88,208 84,204 C80,200 76,196 74,190 C72,184 72,178 74,172
-             C76,166 80,162 84,158 C88,154 90,148 92,142 C94,136 96,130 98,124
-             C100,118 100,112 102,106 C104,100 108,96 112,92 C116,88 120,84 124,80
-             C128,76 132,72 136,68 C140,64 142,58 144,52 C146,46 150,42 154,38
-             C158,34 162,30 168,28 Z"
+          d={indiaPath}
           fill="none"
           stroke="var(--sky-blue-deep)"
-          strokeWidth="1.5"
+          strokeWidth="2"
           opacity="0.4"
+          strokeLinejoin="round"
         />
         {/* India filled shape - very light */}
         <path
-          d="M168,28 C172,28 180,32 185,38 C190,44 195,48 198,52 C202,56 208,58 212,62
-             C216,66 218,72 220,78 C222,84 225,88 226,92 C228,96 230,100 232,106
-             C234,112 236,118 238,124 C240,130 242,136 242,142 C242,148 240,154 238,160
-             C236,166 232,172 228,178 C224,184 220,190 218,196 C216,202 218,208 220,214
-             C222,220 224,226 224,232 C224,238 222,244 218,250 C214,256 210,262 206,268
-             C202,274 198,280 194,284 C190,288 186,290 182,294 C178,298 174,304 170,310
-             C166,316 164,320 160,324 C156,328 152,330 148,328 C144,326 142,320 140,314
-             C138,308 136,302 132,298 C128,294 124,292 120,288 C116,284 114,278 112,272
-             C110,266 108,260 106,254 C104,248 102,242 100,236 C98,230 96,224 94,218
-             C92,212 88,208 84,204 C80,200 76,196 74,190 C72,184 72,178 74,172
-             C76,166 80,162 84,158 C88,154 90,148 92,142 C94,136 96,130 98,124
-             C100,118 100,112 102,106 C104,100 108,96 112,92 C116,88 120,84 124,80
-             C128,76 132,72 136,68 C140,64 142,58 144,52 C146,46 150,42 154,38
-             C158,34 162,30 168,28 Z"
+          d={indiaPath}
           fill="var(--sky-blue)"
-          opacity="0.12"
+          opacity="0.1"
+          strokeLinejoin="round"
         />
 
         {/* Route lines connecting cities in order */}
         <polyline
-          points="168,108 130,140 155,148 147,135 140,155 157,128"
+          points={cities.map(c => `${c.x},${c.y}`).join(' ')}
           fill="none"
           stroke="var(--gold)"
-          strokeWidth="1"
-          strokeDasharray="4,3"
+          strokeWidth="1.5"
+          strokeDasharray="6,4"
           opacity="0.5"
         />
 
@@ -209,10 +215,10 @@ function IndiaMap() {
               <circle
                 cx={city.x}
                 cy={city.y}
-                r="8"
+                r="12"
                 fill="none"
                 stroke={city.name === 'Jaipur' ? 'var(--gold)' : 'var(--sky-blue-deep)'}
-                strokeWidth="0.5"
+                strokeWidth="0.8"
                 opacity="0.3"
               />
             )}
@@ -220,18 +226,18 @@ function IndiaMap() {
             <circle
               cx={city.x}
               cy={city.y}
-              r={city.primary ? 4 : 3}
+              r={city.primary ? 6 : 4.5}
               fill={city.name === 'Jaipur' ? 'var(--gold)' : city.name === 'Delhi' ? 'var(--sky-blue-deep)' : 'var(--navy)'}
               opacity={city.primary ? 1 : 0.7}
             />
             {/* City label */}
             <text
-              x={city.x}
-              y={city.y - 7}
+              x={city.x + (city.name === 'Delhi' ? 14 : city.name === 'Udaipur' ? -2 : 0)}
+              y={city.y - 12}
               textAnchor="middle"
               className="india-map-label"
               fill="var(--navy)"
-              fontSize={city.primary ? '8' : '7'}
+              fontSize={city.primary ? '13' : '11'}
               fontWeight={city.primary ? '600' : '400'}
             >
               {city.name}
