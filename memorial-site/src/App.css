@@ -1,0 +1,716 @@
+/* Navigation */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(250, 248, 245, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(180, 213, 224, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav.scrolled {
+  box-shadow: 0 2px 20px rgba(44, 62, 90, 0.08);
+}
+
+.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--navy);
+  letter-spacing: 0.02em;
+}
+
+.nav-title span {
+  font-family: var(--font-hindi);
+  color: var(--gold);
+  margin-left: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--navy-light);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--gold);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    var(--cream) 0%,
+    #e8f0f4 40%,
+    var(--sky-blue) 100%
+  );
+  padding: 6rem 1.5rem 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at 50% 80%,
+    rgba(180, 213, 224, 0.3) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-prayer {
+  font-family: var(--font-hindi);
+  font-size: 1.2rem;
+  color: var(--gold);
+  letter-spacing: 0.15em;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.hero-photo-container {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  box-shadow:
+    0 8px 32px rgba(44, 62, 90, 0.15),
+    0 0 0 1px rgba(196, 163, 90, 0.2);
+}
+
+.hero-photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+}
+
+.hero-name-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.hero-name-english {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--navy-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: var(--navy-light);
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+.hero-quote {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(196, 163, 90, 0.2);
+}
+
+.hero-quote-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.hero-quote-english {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--navy-light);
+  font-style: italic;
+}
+
+/* ========================================
+   BIO SECTION
+   ======================================== */
+.bio {
+  background: var(--cream);
+}
+
+.bio-text {
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--navy-light);
+  line-height: 1.9;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+}
+
+.bio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.bio-card {
+  padding: 1rem 1.5rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid rgba(180, 213, 224, 0.3);
+  text-align: center;
+  min-width: 140px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bio-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(44, 62, 90, 0.08);
+}
+
+.bio-card-label {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+.bio-card-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.85rem;
+  color: var(--gold);
+}
+
+/* ========================================
+   TIMELINE SECTION
+   ======================================== */
+.timeline {
+  background: white;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    var(--sky-blue),
+    var(--gold),
+    var(--sage)
+  );
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 12px;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--sky-blue-deep);
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(126, 184, 206, 0.3);
+}
+
+.timeline-item:last-child .timeline-dot {
+  background: var(--gold);
+  box-shadow: 0 2px 8px rgba(196, 163, 90, 0.3);
+}
+
+.timeline-years {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.15rem;
+}
+
+.timeline-city {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.timeline-desc {
+  font-size: 0.9rem;
+  color: var(--navy-light);
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .timeline-container::before {
+    left: 12px;
+  }
+  .timeline-item {
+    padding-left: 40px;
+  }
+  .timeline-dot {
+    left: 4px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* ========================================
+   QUOTES SECTION
+   ======================================== */
+.quotes {
+  background: linear-gradient(180deg, var(--cream) 0%, #f0f4ee 100%);
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.quote-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(180, 213, 224, 0.25);
+  box-shadow: 0 2px 12px rgba(44, 62, 90, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quote-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(44, 62, 90, 0.08);
+}
+
+.quote-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.9;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(196, 163, 90, 0.15);
+}
+
+.quote-english {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--navy-light);
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.quote-context {
+  font-size: 0.85rem;
+  color: var(--sage);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* ========================================
+   LEARNER SECTION
+   ======================================== */
+.learner {
+  background: white;
+}
+
+.learner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.learner-card {
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-align: center;
+  border: 1px solid rgba(180, 213, 224, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.learner-card:hover {
+  transform: translateY(-2px);
+}
+
+.learner-year {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--sky-blue-deep);
+  margin-bottom: 0.25rem;
+}
+
+.learner-subject {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.15rem;
+}
+
+.learner-detail {
+  font-size: 0.8rem;
+  color: var(--navy-light);
+}
+
+/* ========================================
+   VALUES SECTION
+   ======================================== */
+.values {
+  background: linear-gradient(180deg, #f0f4ee 0%, var(--cream) 100%);
+}
+
+.values-block {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.values-block:last-child {
+  margin-bottom: 0;
+}
+
+.values-block-title {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.values-block-title-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.05rem;
+  color: var(--gold);
+  margin-bottom: 1.25rem;
+}
+
+.values-quote-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 2;
+  margin-bottom: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  background: white;
+  border-radius: 10px;
+  border-left: 3px solid var(--gold);
+}
+
+.values-quote-english {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--navy-light);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ashram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 700px;
+  margin: 1.5rem auto 0;
+}
+
+.ashram-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.25rem;
+  text-align: center;
+  border: 1px solid rgba(196, 163, 90, 0.15);
+}
+
+.ashram-name-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.15rem;
+}
+
+.ashram-name {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--gold);
+  margin-bottom: 0.35rem;
+}
+
+.ashram-desc {
+  font-size: 0.8rem;
+  color: var(--navy-light);
+}
+
+/* ========================================
+   GALLERY SECTION
+   ======================================== */
+.gallery {
+  background: white;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.gallery-item {
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  box-shadow: 0 4px 16px rgba(44, 62, 90, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.02);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--cream);
+  border-radius: 8px;
+  border: 1px solid rgba(180, 213, 224, 0.3);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.gallery-link:hover {
+  background: var(--sky-blue);
+  color: var(--navy);
+  border-color: var(--sky-blue);
+}
+
+/* ========================================
+   SPIRITUAL SECTION
+   ======================================== */
+.spiritual {
+  background: linear-gradient(180deg, var(--cream) 0%, #e8f0f4 100%);
+}
+
+.spiritual-items {
+  max-width: 700px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.spiritual-item {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(180, 213, 224, 0.2);
+}
+
+.spiritual-item-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+.spiritual-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.9;
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--gold);
+}
+
+.spiritual-english {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--navy-light);
+  padding-left: 1rem;
+}
+
+/* ========================================
+   CLOSING SECTION
+   ======================================== */
+.closing {
+  background: linear-gradient(
+    180deg,
+    #e8f0f4 0%,
+    var(--sky-blue) 50%,
+    #7EB8CE 100%
+  );
+  text-align: center;
+  padding: 5rem 1.5rem;
+}
+
+.closing-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.closing-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 2;
+  margin-bottom: 0.75rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+}
+
+.closing-english {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--navy-light);
+  margin-bottom: 2rem;
+}
+
+.closing-legacy {
+  font-size: 0.95rem;
+  color: var(--navy);
+  line-height: 1.9;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.closing-om {
+  font-family: var(--font-hindi);
+  font-size: 2rem;
+  color: var(--navy);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.closing-shanti {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--navy-light);
+  font-style: italic;
+  letter-spacing: 0.1em;
+  margin-bottom: 2rem;
+}
+
+.closing-years {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--navy);
+  letter-spacing: 0.1em;
+}
+
+.closing-years span {
+  color: var(--gold);
+}
