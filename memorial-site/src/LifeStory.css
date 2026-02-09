@@ -316,3 +316,53 @@
     padding: 0.25rem 0.5rem;
   }
 }
+
+/* ========================================
+   FOOTER
+   ======================================== */
+.ls-footer {
+  background: var(--navy);
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.ls-footer-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ls-footer-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.ls-footer-link {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--sky-blue);
+  letter-spacing: 0.03em;
+  transition: color 0.3s ease;
+}
+
+.ls-footer-link:hover {
+  color: var(--gold);
+}
+
+.ls-footer-family {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  color: rgba(250, 248, 245, 0.6);
+  letter-spacing: 0.08em;
+}
+
+.ls-footer-family-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.85rem;
+  color: var(--gold);
+  opacity: 0.5;
+  margin-top: 0.15rem;
+}

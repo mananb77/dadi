@@ -639,6 +639,36 @@ function Quotes() {
       english: '"If you see evil in someone, leave it right there. Turn your face and take your own path... Throw the bad things in the garbage basket."',
       context: 'On handling negativity — let go and move forward',
     },
+    {
+      hindi: '"अगर नौकरी कर लेती तो दो काम करने पड़ते। अब एक काम करना पड़ता है: घर का काम।"',
+      english: '"If I took a job, I\'d have to do two works. Now only one work needs doing: household work."',
+      context: 'On choosing family — a deliberate sacrifice',
+    },
+    {
+      hindi: '"मेरा गोल यह है कि जो भी आश्रम चल रहा है, उसको ठीक से पार करूँ"',
+      english: '"My goal is whatever ashram stage I\'m passing through, I should pass through it properly."',
+      context: 'On living with purpose — each stage fully',
+    },
+    {
+      hindi: '"मुझे मोक्ष नहीं चाहिए। अच्छे कर्म करो, भगवान के धाम जाओ, मज़ा करो, फिर वापस आ जाओ।"',
+      english: '"I don\'t want moksha. Do good deeds, go to God\'s realm, enjoy, then come back."',
+      context: 'On the afterlife — joy, not escape',
+    },
+    {
+      hindi: '"पेन्सिल भी उठा लेते थे तो मैं कहती थी वापस करो। नहीं तो मैं खुद स्कूल जाके वापस करूँगी।"',
+      english: '"Even if they took a pencil, I said return it. If not, I\'ll go to school and return it myself."',
+      context: 'On honesty — teaching her children integrity in the smallest things',
+    },
+    {
+      hindi: '"अगर कोई गाली देता है तो वो गाली तुम्हारी नहीं है अगर तुम उसे लेते नहीं हो"',
+      english: '"If someone gives an insult, it\'s not yours if you don\'t accept it."',
+      context: 'On inner peace — a lesson from the Buddha',
+    },
+    {
+      hindi: '"वो पुरानी प्रथाएँ अब फिट नहीं होतीं, लेकिन सार को पकड़ो, मकसद को पकड़ो, लक्ष्य को पकड़ो"',
+      english: '"Those old practices don\'t fit now, but hold onto the essence, the purpose, the goal."',
+      context: 'On adapting tradition — keep the spirit, release the form',
+    },
   ];
 
   return (

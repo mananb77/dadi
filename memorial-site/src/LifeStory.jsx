@@ -899,6 +899,25 @@ function LifeStory() {
         </div>
 
       </div>
+
+      <footer className="ls-footer">
+        <div className="ls-footer-inner">
+          <div className="ls-footer-links">
+            <Link to="/" className="ls-footer-link">Memorial Home</Link>
+            <Link to="/memories" className="ls-footer-link">Share a Memory</Link>
+            <a
+              href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1944–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ls-footer-link"
+            >
+              Share on WhatsApp
+            </a>
+          </div>
+          <p className="ls-footer-family">The Bhargava Family</p>
+          <p className="ls-footer-family-hindi">भार्गव परिवार</p>
+        </div>
+      </footer>
     </div>
   );
 }
