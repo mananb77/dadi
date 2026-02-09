@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useScrollReveal } from './hooks/useScrollReveal';
 import './App.css';
 
@@ -32,6 +33,7 @@ function Nav() {
           <li><a href="#values">Values</a></li>
           <li><a href="#gallery">Photos</a></li>
           <li><a href="#spiritual">Spiritual</a></li>
+          <li><Link to="/lifestory" style={{ color: 'var(--gold)' }}>Her Story</Link></li>
         </ul>
       </div>
     </nav>
@@ -53,8 +55,8 @@ function Hero() {
           />
         </div>
 
-        <h1 className="hero-name-hindi fade-in">दादी</h1>
-        <p className="hero-name-english fade-in">Dadi</p>
+        <h1 className="hero-name-hindi fade-in">कल्पना भार्गव</h1>
+        <p className="hero-name-english fade-in">Kalpana Bhargava</p>
         <p className="hero-subtitle fade-in">
           A Life of Purpose, Love &amp; Devotion (1944 &ndash; 2026)
         </p>
@@ -66,6 +68,21 @@ function Hero() {
           <p className="hero-quote-english">
             &ldquo;My purpose was &ndash; to help my children progress&rdquo;
           </p>
+        </div>
+
+        <div className="hero-links fade-in">
+          <Link to="/lifestory" className="hero-link hero-link-primary">
+            Her Life Story
+          </Link>
+          <a href="https://youtu.be/Vr5SEu2DvKY" target="_blank" rel="noopener noreferrer" className="hero-link">
+            &#9654; Lifestory Video
+          </a>
+          <a href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9" target="_blank" rel="noopener noreferrer" className="hero-link">
+            Best Photos
+          </a>
+          <a href="https://photos.app.goo.gl/QHKtYrbuytDfGmoQA" target="_blank" rel="noopener noreferrer" className="hero-link">
+            Dadi Memories
+          </a>
         </div>
       </div>
     </section>
@@ -105,6 +122,13 @@ function Bio() {
               <span className="bio-card-hindi">{card.hindi}</span>
             </div>
           ))}
+        </div>
+
+        <div className="bio-cta fade-in">
+          <Link to="/lifestory" className="bio-cta-link">
+            Read Her Full Life Story
+            <span className="bio-cta-hindi">उनकी पूरी जीवन कहानी पढ़ें</span>
+          </Link>
         </div>
       </div>
     </section>
@@ -403,7 +427,7 @@ function Gallery() {
             rel="noopener noreferrer"
             className="gallery-link"
           >
-            &#9654;&ensp;Watch Video Tribute
+            &#9654;&ensp;Watch Lifestory Video
           </a>
           <a
             href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9"
@@ -411,9 +435,24 @@ function Gallery() {
             rel="noopener noreferrer"
             className="gallery-link"
           >
-            &#128247;&ensp;View All Photos
+            &#128247;&ensp;Best Photos
           </a>
+          <a
+            href="https://photos.app.goo.gl/QHKtYrbuytDfGmoQA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gallery-link"
+          >
+            &#128156;&ensp;Dadi Memories
+          </a>
+          <Link to="/lifestory" className="gallery-link">
+            &#128214;&ensp;Read Her Life Story
+          </Link>
         </div>
+
+        <p className="gallery-note fade-in">
+          Prayer recording coming soon
+        </p>
       </div>
     </section>
   );

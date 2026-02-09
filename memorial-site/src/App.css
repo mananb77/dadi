@@ -114,8 +114,8 @@
 }
 
 .hero-photo-container {
-  width: 220px;
-  height: 220px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto 2rem;
   border-radius: 50%;
   overflow: hidden;
@@ -134,7 +134,7 @@
 
 .hero-name-hindi {
   font-family: var(--font-hindi);
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   font-weight: 600;
   color: var(--navy);
   margin-bottom: 0.25rem;
@@ -142,7 +142,7 @@
 
 .hero-name-english {
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   color: var(--navy-light);
   letter-spacing: 0.15em;
@@ -182,6 +182,54 @@
   font-size: 1rem;
   color: var(--navy-light);
   font-style: italic;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hero-link {
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--navy);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(180, 213, 224, 0.4);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.hero-link:hover {
+  background: var(--sky-blue);
+  border-color: var(--sky-blue-deep);
+  color: var(--navy);
+}
+
+.hero-link-primary {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: white;
+}
+
+.hero-link-primary:hover {
+  background: #b8963e;
+  border-color: #b8963e;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .hero-links {
+    gap: 0.5rem;
+  }
+  .hero-link {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
 }
 
 /* ========================================
@@ -235,6 +283,43 @@
   font-family: var(--font-hindi);
   font-size: 0.85rem;
   color: var(--gold);
+}
+
+.bio-cta {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.bio-cta-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: white;
+  border: 1px solid var(--gold);
+  border-radius: 10px;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.bio-cta-link:hover {
+  background: var(--gold);
+  color: white;
+  border-color: var(--gold);
+}
+
+.bio-cta-hindi {
+  display: block;
+  font-family: var(--font-hindi);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--gold);
+  margin-top: 0.25rem;
+}
+
+.bio-cta-link:hover .bio-cta-hindi {
+  color: rgba(255, 255, 255, 0.85);
 }
 
 /* ========================================
@@ -586,6 +671,14 @@
   background: var(--sky-blue);
   color: var(--navy);
   border-color: var(--sky-blue);
+}
+
+.gallery-note {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--sage);
+  font-style: italic;
+  margin-top: 1.25rem;
 }
 
 /* ========================================
