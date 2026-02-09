@@ -119,6 +119,16 @@ function Bio() {
           three sons, grandmother, and lifelong learner.
         </p>
 
+        <p className="bio-text bio-text-hindi fade-in">
+          दिल्ली में जन्म, 1944। परिवार की सातवीं संतान। रेलवे मेल गार्ड की
+          बेटी। एक ऐसी महिला जिसने बाधाओं को तोड़ा, अथक रूप से ज्ञान की खोज
+          की, और 84 वर्ष सेवा, परिवार और अटूट आस्था को समर्पित किए। वे रेलवे
+          बंगलों में रहीं, किलोमीटरों पैदल चलकर स्कूल गईं, और बिना बिजली या
+          पानी के युग में पली-बढ़ीं &mdash; फिर भी उन्होंने कभी आगे बढ़ना नहीं
+          छोड़ा। अर्थशास्त्र की विद्वान, एनसीसी प्रशिक्षित कैडेट, गणित की
+          शिक्षिका, तीन बेटों की माँ, दादी, और आजीवन विद्यार्थी।
+        </p>
+
         <div className="bio-cards fade-in">
           {cards.map((card) => (
             <div className="bio-card" key={card.label}>
@@ -348,31 +358,37 @@ function Timeline() {
       years: '1944 – 1967',
       city: 'Delhi',
       desc: 'Childhood in Dariba Kalan, Old Delhi. Education from school through BA Honours Economics at Ramjas College and MA Economics. Three years of NCC training. The foundation of everything.',
+      hindi: 'दरीबा कलां, पुरानी दिल्ली में बचपन। स्कूल से लेकर रामजस कॉलेज से बीए ऑनर्स अर्थशास्त्र और एमए अर्थशास्त्र तक की शिक्षा। तीन वर्ष का एनसीसी प्रशिक्षण। सब कुछ की नींव।',
     },
     {
       years: '1967 – 1973',
       city: 'Jodhpur',
       desc: 'Marriage in 1967. Sardarpura, B Road, Shiv Nivas. Two sons born here. Began teaching mathematics while pregnant. First steps as a homemaker.',
+      hindi: '1967 में विवाह। सरदारपुरा, बी रोड, शिव निवास। यहाँ दो बेटों का जन्म हुआ। गर्भावस्था में गणित पढ़ाना शुरू किया। गृहिणी के रूप में पहले कदम।',
     },
     {
       years: '1973 – 1975',
       city: 'Kota',
       desc: 'Shopping Center, Ghumanpura. Third son born here. Children at St. Paul\'s School. Completed B.Ed.',
+      hindi: 'शॉपिंग सेंटर, घूमनपुरा। तीसरे बेटे का जन्म यहाँ हुआ। बच्चे सेंट पॉल स्कूल में। बी.एड. पूरा किया।',
     },
     {
       years: '1975 – 1976',
       city: 'Ajmer',
       desc: 'Raja Cycle area, near Martingal Bridge. A brief but memorable stay.',
+      hindi: 'राजा साइकिल क्षेत्र, मार्टिंगल पुल के पास। एक छोटा लेकिन यादगार ठहराव।',
     },
     {
       years: '1976 – 1981',
       city: 'Udaipur',
       desc: 'Residency Road, Bhatt Ji Ki Bari. Five formative years. Food Preservation certification. All three boys at St. Paul\'s.',
+      hindi: 'रेसिडेंसी रोड, भट्ट जी की बाड़ी। पाँच निर्णायक वर्ष। फूड प्रिज़र्वेशन प्रमाणपत्र। तीनों बेटे सेंट पॉल में।',
     },
     {
       years: '1981 – 2026',
       city: 'Jaipur',
       desc: 'Her final and longest home — 44 years. Cookery & Bakery, Tailoring, Music, Astrology certifications. Raised three sons to adulthood. Deepened her spiritual practice. Found peace.',
+      hindi: 'उनका अंतिम और सबसे लंबा घर — 44 वर्ष। कुकरी और बेकरी, सिलाई, संगीत, ज्योतिष के प्रमाणपत्र। तीनों बेटों को बड़ा किया। आध्यात्मिक साधना को गहरा किया। शांति पाई।',
     },
   ];
 
@@ -391,6 +407,7 @@ function Timeline() {
               <div className="timeline-years">{stop.years}</div>
               <h3 className="timeline-city">{stop.city}</h3>
               <p className="timeline-desc">{stop.desc}</p>
+              <p className="timeline-desc-hindi">{stop.hindi}</p>
             </div>
           ))}
         </div>
@@ -465,15 +482,15 @@ function Quotes() {
 
 function Learner() {
   const certs = [
-    { year: '1959', subject: 'First Aid', detail: 'St. John Ambulance, Delhi' },
-    { year: '1964', subject: 'BA Honours', detail: 'Economics, Ramjas College' },
-    { year: '1968', subject: 'MA Economics', detail: 'Agra University' },
-    { year: '1971', subject: 'B.Ed.', detail: 'Mathematics Teacher' },
-    { year: '1978', subject: 'Food Preservation', detail: 'Candy, jelly, jam, squashes' },
-    { year: '1981', subject: 'Cookery & Bakery', detail: 'Khasa Kothi, Jaipur' },
-    { year: '1987', subject: 'Cutting & Tailoring', detail: '6-month course' },
-    { year: '1987', subject: 'Music', detail: 'Tabla & Harmonium, Prayag University' },
-    { year: '2001', subject: 'Astrology', detail: 'From Chennai' },
+    { year: '1959', subject: 'First Aid', detail: 'St. John Ambulance, Delhi', hindi: 'प्राथमिक चिकित्सा — सेंट जॉन एम्बुलेंस, दिल्ली' },
+    { year: '1964', subject: 'BA Honours', detail: 'Economics, Ramjas College', hindi: 'बीए ऑनर्स — अर्थशास्त्र, रामजस कॉलेज' },
+    { year: '1968', subject: 'MA Economics', detail: 'Agra University', hindi: 'एमए अर्थशास्त्र — आगरा विश्वविद्यालय' },
+    { year: '1971', subject: 'B.Ed.', detail: 'Mathematics Teacher', hindi: 'बी.एड. — गणित शिक्षिका' },
+    { year: '1978', subject: 'Food Preservation', detail: 'Candy, jelly, jam, squashes', hindi: 'खाद्य संरक्षण — कैंडी, जेली, जैम, शरबत' },
+    { year: '1981', subject: 'Cookery & Bakery', detail: 'Khasa Kothi, Jaipur', hindi: 'कुकरी और बेकरी — खासा कोठी, जयपुर' },
+    { year: '1987', subject: 'Cutting & Tailoring', detail: '6-month course', hindi: 'कटिंग और सिलाई — 6 महीने का कोर्स' },
+    { year: '1987', subject: 'Music', detail: 'Tabla & Harmonium, Prayag University', hindi: 'संगीत — तबला और हारमोनियम, प्रयाग विश्वविद्यालय' },
+    { year: '2001', subject: 'Astrology', detail: 'From Chennai', hindi: 'ज्योतिष — चेन्नई से' },
   ];
 
   return (
@@ -488,6 +505,7 @@ function Learner() {
               <div className="learner-year">{c.year}</div>
               <div className="learner-subject">{c.subject}</div>
               <div className="learner-detail">{c.detail}</div>
+              <div className="learner-hindi">{c.hindi}</div>
             </div>
           ))}
         </div>
@@ -757,6 +775,9 @@ function Diya() {
       <p className="diya-label">
         {lit ? 'Diya lit in her memory' : 'Press to light a diya in her memory'}
       </p>
+      <p className="diya-label-hindi">
+        {lit ? 'उनकी याद में दिया जलाया' : 'उनकी याद में दिया जलाने के लिए दबाएँ'}
+      </p>
     </div>
   );
 }
@@ -781,6 +802,12 @@ function Closing() {
           her family with values, never stopped learning, served everyone
           without expectation, and spent her final years in peaceful devotion.
           Her light continues through all of us.
+        </p>
+        <p className="closing-legacy-hindi fade-in">
+          उन्होंने सिर्फ़ 84 साल नहीं जिए। उन्होंने उद्देश्य के साथ जीवन
+          जिया, संस्कारों से परिवार पाला, कभी सीखना नहीं छोड़ा, बिना किसी
+          अपेक्षा के सबकी सेवा की, और अपने अंतिम वर्ष शांतिपूर्ण भक्ति में
+          बिताए। उनका प्रकाश हम सभी में जीवित है।
         </p>
 
         <Diya />

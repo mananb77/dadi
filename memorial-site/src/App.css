@@ -248,6 +248,12 @@
   margin: 0 auto 2.5rem;
 }
 
+.bio-text-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.1rem;
+  color: var(--gold);
+}
+
 .bio-cards {
   display: flex;
   flex-wrap: wrap;
@@ -419,6 +425,14 @@
   line-height: 1.6;
 }
 
+.timeline-desc-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.9rem;
+  color: var(--gold);
+  line-height: 1.8;
+  margin-top: 0.35rem;
+}
+
 @media (max-width: 600px) {
   .timeline-container::before {
     left: 12px;
@@ -535,6 +549,13 @@
 .learner-detail {
   font-size: 0.8rem;
   color: var(--navy-light);
+}
+
+.learner-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.8rem;
+  color: var(--gold);
+  margin-top: 0.3rem;
 }
 
 /* ========================================
@@ -795,10 +816,22 @@
   font-size: 0.95rem;
   color: var(--navy);
   line-height: 1.9;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.closing-legacy-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1rem;
+  color: var(--gold);
+  line-height: 2;
   margin-bottom: 2.5rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .closing-om {
@@ -828,7 +861,7 @@
 }
 
 .closing-years span {
-  color: var(--gold);
+  color: var(--navy);
 }
 
 /* ========================================
@@ -929,9 +962,16 @@
   margin-top: 0.8rem;
   font-family: var(--font-heading);
   font-size: 0.85rem;
-  color: var(--gold);
+  color: var(--navy);
   letter-spacing: 0.05em;
   font-style: italic;
+}
+
+.diya-label-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.85rem;
+  color: var(--gold);
+  margin-top: 0.2rem;
 }
 
 @keyframes flicker {
