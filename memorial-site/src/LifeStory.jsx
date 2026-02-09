@@ -85,11 +85,11 @@ function LifeStory() {
           <h2>The Beginning: A Child of the Railways</h2>
 
           <p className="ls-para">
-            In the Delhi of the early 1940s, in a time when India still lived under British rule, a daughter was born to Shri Ram Bhargava and his wife Narayani. She was the seventh child in a family that would eventually number eleven children&mdash;four brothers and three sisters surrounded her in the bustling household. Her father, born in 1901, served as a Senior Mail Rail Guard, a position of some importance in the Indian Railways. He was the kind of man who hoisted the flag at the railway station, a duty that spoke to his standing in the community.
+            In the Delhi of the early 1940s, in a time when India still lived under British rule, a daughter was born to Shri Ram Bhargava and his wife Narayani. She was the seventh child in a family that would eventually number eleven children. Four brothers and three sisters surrounded her in the bustling household. Her father, born in 1901, served as a Senior Mail Rail Guard, a position of some importance in the Indian Railways. He was the kind of man who hoisted the flag at the railway station, a duty that spoke to his standing in the community.
           </p>
 
           <p className="ls-para">
-            The family lived in a large railway bungalow behind the station, provided by the government as part of her father&rsquo;s employment. <H>&ldquo;बड़ा बंगला था जिसमें तीन चार कमरे थे,&rdquo;</H> she remembers&mdash;it was a big bungalow with three or four rooms. But this was the India of the 1940s and early 1950s, and even a railway officer&rsquo;s home lacked many basic amenities. The bathroom and toilet stood outside the main house, and in those early years, there was no electricity at all.
+            The family lived in a large railway bungalow behind the station, provided by the government as part of her father&rsquo;s employment. <H>&ldquo;बड़ा बंगला था जिसमें तीन चार कमरे थे,&rdquo;</H> she remembers. It was a big bungalow with three or four rooms. But this was the India of the 1940s and early 1950s, and even a railway officer&rsquo;s home lacked many basic amenities. The bathroom and toilet stood outside the main house, and in those early years, there was no electricity at all.
           </p>
 
           <p className="ls-para">
@@ -97,7 +97,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            The servant quarters on the compound housed a teacher and a washerwoman who helped with the daily work. Beyond the house stretched extensive fencing and a large yard where her brothers tended a garden. <H>&ldquo;लॉन था बड़े-बड़े कमरे थे,&rdquo;</H> she recalls&mdash;there was a lawn, and hedges all around. It was a life of relative comfort, but one that required constant effort to maintain.
+            The servant quarters on the compound housed a teacher and a washerwoman who helped with the daily work. Beyond the house stretched extensive fencing and a large yard where her brothers tended a garden. <H>&ldquo;लॉन था बड़े-बड़े कमरे थे,&rdquo;</H> she recalls. There was a lawn, and hedges all around. It was a life of relative comfort, but one that required constant effort to maintain.
           </p>
         </section>
 
@@ -109,11 +109,11 @@ function LifeStory() {
           <h2>The Water Challenge: Lessons in Resourcefulness</h2>
 
           <p className="ls-para">
-            Perhaps nothing captures the reality of those early years better than the daily struggle for water. With no running water in the house, the family hired a man whose sole job was carrying water. <H>&ldquo;वो अपने कंधों पर एक लकड़ी की बैंगी जिसे बोलते थे वो बनी रहती थी,&rdquo;</H> she explains. He carried a wooden pole across his shoulders, with thick iron wires hanging down. From these wires hung hooks, and on the hooks, canisters&mdash;cut ghee or oil containers, each holding sixteen liters of water.
+            Perhaps nothing captures the reality of those early years better than the daily struggle for water. With no running water in the house, the family hired a man whose sole job was carrying water. <H>&ldquo;वो अपने कंधों पर एक लकड़ी की बैंगी जिसे बोलते थे वो बनी रहती थी,&rdquo;</H> she explains. He carried a wooden pole across his shoulders, with thick iron wires hanging down. From these wires hung hooks, and on the hooks, canisters, cut ghee or oil containers, each holding sixteen liters of water.
           </p>
 
           <p className="ls-para">
-            The man would make his journey four times a day, bringing two canisters per trip. <H>&ldquo;तो दो एक बार में दो दो कैनस्टर पानी लाया करता था 32 लीटर्स,&rdquo;</H> she notes&mdash;thirty-two liters at a time. Their family ordered four trips daily, bringing approximately 128 liters of water to sustain the household.
+            The man would make his journey four times a day, bringing two canisters per trip. <H>&ldquo;तो दो एक बार में दो दो कैनस्टर पानी लाया करता था 32 लीटर्स,&rdquo;</H> she notes. Thirty-two liters at a time. Their family ordered four trips daily, bringing approximately 128 liters of water to sustain the household.
           </p>
 
           <p className="ls-para">
@@ -121,7 +121,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            For bathing, the family improvised a system in the veranda. <H>&ldquo;बरांडे में और वहीं पर पर्दा डाल के हम लोग एक अलग ही नहा लेते थे,&rdquo;</H> she says. They hung a curtain behind an iron grill, creating a private space with a drain so water would flow out properly. It was simple, functional, and required no complaint&mdash;just acceptance of reality and creative problem-solving.
+            For bathing, the family improvised a system in the veranda. <H>&ldquo;बरांडे में और वहीं पर पर्दा डाल के हम लोग एक अलग ही नहा लेते थे,&rdquo;</H> she says. They hung a curtain behind an iron grill, creating a private space with a drain so water would flow out properly. It was simple, functional, and required no complaint, just acceptance of reality and creative problem-solving.
           </p>
         </section>
 
@@ -133,11 +133,11 @@ function LifeStory() {
           <h2>The Walk to School: Building a Steel Body</h2>
 
           <p className="ls-para">
-            Education meant walking. Every day, she and her siblings would walk about one and a half kilometers to the railway school, carrying their cloth bags&mdash;<H>&ldquo;थैलियों के बस्ते होते थे जैसे थैला होता है वैसा बस्ता होता था&rdquo;</H>&mdash;simple sacks made of cloth that they filled with their school materials and slung over their shoulders.
+            Education meant walking. Every day, she and her siblings would walk about one and a half kilometers to the railway school, carrying their cloth bags: <H>&ldquo;थैलियों के बस्ते होते थे जैसे थैला होता है वैसा बस्ता होता था&rdquo;</H> Simple sacks made of cloth that they filled with their school materials and slung over their shoulders.
           </p>
 
           <p className="ls-para">
-            The railway school offered certain privileges. <H>&ldquo;दूध भी मिलता था वहां पे क्योंकि रेलवे का था,&rdquo;</H> she notes&mdash;they received milk at school because it was a railway institution. The fees, though nominal, were deducted directly from her father&rsquo;s salary over two-month periods, along with all other household expenses. Only after everything was deducted would her father receive his remaining pay.
+            The railway school offered certain privileges. <H>&ldquo;दूध भी मिलता था वहां पे क्योंकि रेलवे का था,&rdquo;</H> she notes. They received milk at school because it was a railway institution. The fees, though nominal, were deducted directly from her father&rsquo;s salary over two-month periods, along with all other household expenses. Only after everything was deducted would her father receive his remaining pay.
           </p>
 
           <p className="ls-para">
@@ -145,7 +145,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            One day stands out in her memory even now, more than seventy years later. The school invited a sadhu, a holy man, to teach the children about health. <H>&ldquo;वो एक बार मुझे अभी भी याद है और मैं अभी भी करती हूं,&rdquo;</H> she says with emphasis&mdash;she still remembers it and still does it. The sadhu taught them to fill their mouths with water and splash it repeatedly over their eyes and face.
+            One day stands out in her memory even now, more than seventy years later. The school invited a sadhu, a holy man, to teach the children about health. <H>&ldquo;वो एक बार मुझे अभी भी याद है और मैं अभी भी करती हूं,&rdquo;</H> she says with emphasis. She still remembers it and still does it. The sadhu taught them to fill their mouths with water and splash it repeatedly over their eyes and face.
           </p>
 
           <PullQuote
@@ -154,7 +154,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            Another practice shaped her physical health for life: eating sugarcane. <H>&ldquo;गन्ने को छीला और छीलने के बाद मुंह से गंडेरिया चूसा करते थे तो मेरे दांत बहुत मजबूत है,&rdquo;</H> she explains. They would peel sugarcane and chew it thoroughly to extract the juice, and her teeth became remarkably strong as a result. Even now, dentists comment with surprise on the strength of her teeth at eighty years old. This wasn&rsquo;t just an occasional treat&mdash;after marriage, she would buy sugarcane by the <em>man</em> (approximately forty kilograms), sit on the roof terrace, and spend time breaking it at the joints, peeling it, and chewing the sweet inner fiber. <H>&ldquo;यह गन्ने खाने का काम तो शादी के बाद भी चलता रहा,&rdquo;</H> she confirms&mdash;the practice continued well into her married life.
+            Another practice shaped her physical health for life: eating sugarcane. <H>&ldquo;गन्ने को छीला और छीलने के बाद मुंह से गंडेरिया चूसा करते थे तो मेरे दांत बहुत मजबूत है,&rdquo;</H> she explains. They would peel sugarcane and chew it thoroughly to extract the juice, and her teeth became remarkably strong as a result. Even now, dentists comment with surprise on the strength of her teeth at eighty years old. This wasn&rsquo;t just an occasional treat. After marriage, she would buy sugarcane by the <em>man</em> (approximately forty kilograms), sit on the roof terrace, and spend time breaking it at the joints, peeling it, and chewing the sweet inner fiber. <H>&ldquo;यह गन्ने खाने का काम तो शादी के बाद भी चलता रहा,&rdquo;</H> she confirms. The practice continued well into her married life.
           </p>
 
           <p className="ls-para">
@@ -175,11 +175,11 @@ function LifeStory() {
           <h2>The Family Crisis: Fighting for Education</h2>
 
           <p className="ls-para">
-            The year 1955 brought significant change. Her father retired from railway service after decades of dedication. But retirement in those days didn&rsquo;t bring the security it might today. <H>&ldquo;उनको पेंशन नहीं थी। पीएफ मिला था,&rdquo;</H> she explains&mdash;there was no pension, only the Provident Fund, a lump sum payment. And he faced enormous responsibilities: five weddings to arrange, including hers, for his children.
+            The year 1955 brought significant change. Her father retired from railway service after decades of dedication. But retirement in those days didn&rsquo;t bring the security it might today. <H>&ldquo;उनको पेंशन नहीं थी। पीएफ मिला था,&rdquo;</H> she explains. There was no pension, only the Provident Fund, a lump sum payment. And he faced enormous responsibilities: five weddings to arrange, including hers, for his children.
           </p>
 
           <p className="ls-para">
-            This financial pressure created an immediate conflict with her educational aspirations. Moving back to their family home in Delhi&mdash;<H>&ldquo;152 कटरा मशरूम, दरीबा कलान, दिल्ली,&rdquo;</H> a massive house with twenty-two to twenty-four rooms arranged around a central courtyard&mdash;should have meant opportunity. Her grandfather had purchased this ancestral home some eighty-six years before her birth. But in 1956, at age sixteen, she found herself fighting for something many families didn&rsquo;t consider essential: continued education for a daughter.
+            This financial pressure created an immediate conflict with her educational aspirations. Moving back to their family home in Delhi: <H>&ldquo;152 कटरा मशरूम, दरीबा कलान, दिल्ली,&rdquo;</H> a massive house with twenty-two to twenty-four rooms arranged around a central courtyard. Should have meant opportunity. Her grandfather had purchased this ancestral home some eighty-six years before her birth. But in 1956, at age sixteen, she found herself fighting for something many families didn&rsquo;t consider essential: continued education for a daughter.
           </p>
 
           <PullQuote
@@ -188,11 +188,11 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            The resistance wasn&rsquo;t merely about money. Girls&rsquo; education wasn&rsquo;t always encouraged in those times. Society had different expectations. But she refused to accept this limitation. <H>&ldquo;हमने पढ़ाई का आगे रखा कि हम तो पढ़ेंगे उसके लिए हमें थोड़ा सा स्ट्रगल करना पड़ा,&rdquo;</H> she acknowledges&mdash;she had to struggle for this, especially for college education. Her father wasn&rsquo;t ready, the family hesitated, but she stood firm.
+            The resistance wasn&rsquo;t merely about money. Girls&rsquo; education wasn&rsquo;t always encouraged in those times. Society had different expectations. But she refused to accept this limitation. <H>&ldquo;हमने पढ़ाई का आगे रखा कि हम तो पढ़ेंगे उसके लिए हमें थोड़ा सा स्ट्रगल करना पड़ा,&rdquo;</H> she acknowledges. She had to struggle for this, especially for college education. Her father wasn&rsquo;t ready, the family hesitated, but she stood firm.
           </p>
 
           <p className="ls-para">
-            Eventually, her father&mdash;this man born in 1901&mdash;gave his permission. This was progressive thinking for that era, and she has never forgotten that he ultimately supported her dreams. To manage finances, the family arranged two weddings in 1957 and 1959. Her own marriage would wait until 1967, when she was twenty-seven&mdash;extraordinarily late for those times, but it allowed her to complete her education.
+            Eventually, her father, this man born in 1901, gave his permission. This was progressive thinking for that era, and she has never forgotten that he ultimately supported her dreams. To manage finances, the family arranged two weddings in 1957 and 1959. Her own marriage would wait until 1967, when she was twenty-seven. Extraordinarily late for those times, but it allowed her to complete her education.
           </p>
         </section>
 
@@ -204,7 +204,7 @@ function LifeStory() {
           <h2>Delhi Days: The Daily Journey to Knowledge</h2>
 
           <p className="ls-para">
-            Getting into high school required help. Her eldest brother&rsquo;s wife, a Delhi native familiar with the school system, became her advocate. They first tried the Government school near Jama Masjid. <H>&ldquo;जमा मस्जिद के गवर्नमेंट स्कूल था। वहां हो गई थी। हमें जगह नहीं मिली,&rdquo;</H> she recalls&mdash;no space available. Government schools were more common then, private schools fewer, but this meant admission could be competitive.
+            Getting into high school required help. Her eldest brother&rsquo;s wife, a Delhi native familiar with the school system, became her advocate. They first tried the Government school near Jama Masjid. <H>&ldquo;जमा मस्जिद के गवर्नमेंट स्कूल था। वहां हो गई थी। हमें जगह नहीं मिली,&rdquo;</H> she recalls. No space available. Government schools were more common then, private schools fewer, but this meant admission could be competitive.
           </p>
 
           <p className="ls-para">
@@ -212,15 +212,15 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            The school lay approximately four to five kilometers from her home in Dariba Kalan. For one brief month, she experienced the luxury of bus transportation. A bus service was arranged specifically for the girls&mdash;students and daughters of jewelers, filling the vehicle completely. The cost was remarkably modest: <H>&ldquo;&#x20B9;1 लेती थी उस समय बस किराया जाने का और आने का&rdquo;</H>&mdash;one rupee for the entire month, for both going and coming.
+            The school lay approximately four to five kilometers from her home in Dariba Kalan. For one brief month, she experienced the luxury of bus transportation. A bus service was arranged specifically for the girls. Students and daughters of jewelers, filling the vehicle completely. The cost was remarkably modest: <H>&ldquo;&#x20B9;1 लेती थी उस समय बस किराया जाने का और आने का&rdquo;</H> One rupee for the entire month, for both going and coming.
           </p>
 
           <p className="ls-para">
-            But after just one month, <H>&ldquo;बस और हम लोग पैदल जाया करते थे,&rdquo;</H> she says&mdash;the bus stopped and they walked. Every single day, for years, she walked the route: from Dariba Kalan to Parade Ground, then to Dariyaganj, past Ghanta Masjid, to her school near Rajghat. <H>&ldquo;हमें आधा घंटा लगता था,&rdquo;</H> she recalls&mdash;thirty minutes each way. This wasn&rsquo;t seen as a hardship. It was simply what one did. The walk built strength, discipline, and determination.
+            But after just one month, <H>&ldquo;बस और हम लोग पैदल जाया करते थे,&rdquo;</H> she says. The bus stopped and they walked. Every single day, for years, she walked the route: from Dariba Kalan to Parade Ground, then to Dariyaganj, past Ghanta Masjid, to her school near Rajghat. <H>&ldquo;हमें आधा घंटा लगता था,&rdquo;</H> she recalls. Thirty minutes each way. This wasn&rsquo;t seen as a hardship. It was simply what one did. The walk built strength, discipline, and determination.
           </p>
 
           <p className="ls-para">
-            During these years, from ninth through eleventh standard, her mind stayed focused on studies. <H>&ldquo;बस पढ़ाई में ही दिमाग रहता था,&rdquo;</H> she emphasizes. But she wasn&rsquo;t merely bookish. Her spiritual side flourished too. During ninth and eleventh standards, she wrote the Gayatri Mantra thousands of times&mdash;first 2,500, then 5,000 repetitions.
+            During these years, from ninth through eleventh standard, her mind stayed focused on studies. <H>&ldquo;बस पढ़ाई में ही दिमाग रहता था,&rdquo;</H> she emphasizes. But she wasn&rsquo;t merely bookish. Her spiritual side flourished too. During ninth and eleventh standards, she wrote the Gayatri Mantra thousands of times. First 2,500, then 5,000 repetitions.
           </p>
 
           <PullQuote
@@ -229,7 +229,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            <H>&ldquo;मैं आदर्शवादी थी। मेरी दादी को मैं पढ़ के सुनाती थी कृष्ण लीला और रामायण,&rdquo;</H> she remembers. She was idealistic, spiritually inclined. Her grandmother couldn&rsquo;t read, so she would read aloud the Krishna Leela and Ramayana to her&mdash;an act of service and devotion combined.
+            <H>&ldquo;मैं आदर्शवादी थी। मेरी दादी को मैं पढ़ के सुनाती थी कृष्ण लीला और रामायण,&rdquo;</H> she remembers. She was idealistic, spiritually inclined. Her grandmother couldn&rsquo;t read, so she would read aloud the Krishna Leela and Ramayana to her. An act of service and devotion combined.
           </p>
         </section>
 
@@ -241,27 +241,27 @@ function LifeStory() {
           <h2>College: Breaking Barriers</h2>
 
           <p className="ls-para">
-            When the time came for college, she faced an ironic situation. Her academic record in eleventh standard showed distinction marks in Lower Mathematics and Domestic Science, good marks in English and Hindi, but only sixty percent in Economics&mdash;her weakest subject. <H>&ldquo;Economics मेरे कम नंबर थे,&rdquo;</H> she admits frankly.
+            When the time came for college, she faced an ironic situation. Her academic record in eleventh standard showed distinction marks in Lower Mathematics and Domestic Science, good marks in English and Hindi, but only sixty percent in Economics. Her weakest subject. <H>&ldquo;Economics मेरे कम नंबर थे,&rdquo;</H> she admits frankly.
           </p>
 
           <p className="ls-para">
-            Yet Economics was exactly where she ended up, thanks to her third brother. He had studied at Ramjas College in Maurice Nagar, Delhi, completing BA Honours in Economics, and knew the Head of Department, N. Agarwal. <H>&ldquo;उन्होंने मेरे को वहां एडमिशन दिलाया और Economics में ढलाया जिसमें की मेरे सबसे कम नंबर आए थे,&rdquo;</H> she says with a laugh&mdash;they got her admission and &ldquo;pushed&rdquo; her into Economics despite it being her weakest subject.
+            Yet Economics was exactly where she ended up, thanks to her third brother. He had studied at Ramjas College in Maurice Nagar, Delhi, completing BA Honours in Economics, and knew the Head of Department, N. Agarwal. <H>&ldquo;उन्होंने मेरे को वहां एडमिशन दिलाया और Economics में ढलाया जिसमें की मेरे सबसे कम नंबर आए थे,&rdquo;</H> she says with a laugh. They got her admission and &ldquo;pushed&rdquo; her into Economics despite it being her weakest subject.
           </p>
 
           <p className="ls-para">
-            The irony didn&rsquo;t defeat her. She studied at Ramjas College for three years, from 1961 to 1964, completing her BA Honours. The teaching was entirely in English, exams in English, and she took membership at the nearby Delhi School of Economics library. There she read the English economic writers&mdash;Bentham, Malthus, and others&mdash;making notes in English, absorbing theories of development that would shape her worldview for life.
+            The irony didn&rsquo;t defeat her. She studied at Ramjas College for three years, from 1961 to 1964, completing her BA Honours. The teaching was entirely in English, exams in English, and she took membership at the nearby Delhi School of Economics library. There she read the English economic writers, Bentham, Malthus, and others, making notes in English, absorbing theories of development that would shape her worldview for life.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;हमने यू एस ए का डेवलपमेंट रशिया का जापान का इंग्लैंड का सारे डेवलपमेंट पढ़े थे,&rdquo;</H> she reflects. She studied the development of the USA, Russia, Japan, and England. Meanwhile, India was a developing country&mdash;<H>&ldquo;रिच इन रिसोर्सेज एंड इनहैबिटेड बाय पुअर्स&rdquo;</H>&mdash;rich in resources but inhabited by poor people. The question that formed in her mind would guide her entire life: <H>&ldquo;कैसे अपने को आगे बढ़ाएं बच्चों को कैसे बढ़ाएं&rdquo;</H>&mdash;how to advance ourselves, how to advance our children.
+            <H>&ldquo;हमने यू एस ए का डेवलपमेंट रशिया का जापान का इंग्लैंड का सारे डेवलपमेंट पढ़े थे,&rdquo;</H> she reflects. She studied the development of the USA, Russia, Japan, and England. Meanwhile, India was a developing country: <H>&ldquo;रिच इन रिसोर्सेज एंड इनहैबिटेड बाय पुअर्स&rdquo;</H> Rich in resources but inhabited by poor people. The question that formed in her mind would guide her entire life: <H>&ldquo;कैसे अपने को आगे बढ़ाएं बच्चों को कैसे बढ़ाएं&rdquo;</H> How to advance ourselves, how to advance our children.
           </p>
 
           <p className="ls-para">
-            Her commute to Ramjas involved walking from Dariba Kalan to Splendid Road, then to Cycle Market, reaching Lal Qila where special buses ran during college hours carrying students to Maurice Nagar. <H>&ldquo;पूरे भर के बस जाती थी,&rdquo;</H> she remembers&mdash;the bus would be completely full, stopping at Kamala Nehru College and Indraprastha College before reaching Ramjas.
+            Her commute to Ramjas involved walking from Dariba Kalan to Splendid Road, then to Cycle Market, reaching Lal Qila where special buses ran during college hours carrying students to Maurice Nagar. <H>&ldquo;पूरे भर के बस जाती थी,&rdquo;</H> she remembers. The bus would be completely full, stopping at Kamala Nehru College and Indraprastha College before reaching Ramjas.
           </p>
 
           <p className="ls-para">
-            In her class of about twenty-two students, only four were girls. <H>&ldquo;हम चार चार लड़कियां थे कॉलेज में क्लास के अंदर और बाकी लड़के थे,&rdquo;</H> she notes. <H>&ldquo;मैं सब ग्रुप लीडर रहती थी,&rdquo;</H> she states proudly&mdash;she was always the group leader. The girls didn&rsquo;t fear anything when she was around, though she herself remained appropriately cautious around boys.
+            In her class of about twenty-two students, only four were girls. <H>&ldquo;हम चार चार लड़कियां थे कॉलेज में क्लास के अंदर और बाकी लड़के थे,&rdquo;</H> she notes. <H>&ldquo;मैं सब ग्रुप लीडर रहती थी,&rdquo;</H> she states proudly. She was always the group leader. The girls didn&rsquo;t fear anything when she was around, though she herself remained appropriately cautious around boys.
           </p>
         </section>
 
@@ -273,15 +273,15 @@ function LifeStory() {
           <h2>NCC: Learning &ldquo;Do or Die&rdquo;</h2>
 
           <p className="ls-para">
-            College brought an experience that would mark her permanently: the National Cadet Corps. For three years&mdash;first year, second year, and third year&mdash;she participated in NCC training. The standard training involved wearing a uniform&mdash;NCC pants and shirt with a cap&mdash;and drilling for an hour daily. <H>&ldquo;एक घंटा NCC करते थे मार्च पास करते थे,&rdquo;</H> she recalls. They learned to march in formation, received 10 grams of butter and a roll each session, and practiced coordinated movements with various implements including a musical stick&mdash;a wooden rod with chains and bells that would chime as they maneuvered it. <H>&ldquo;मैं ग्रुप लीडर हुआ करती थी उसमें सबको सिखाती थी,&rdquo;</H> she notes&mdash;she was group leader for this too, teaching everyone the movements.
+            College brought an experience that would mark her permanently: the National Cadet Corps. For three years, first year, second year, and third year, she participated in NCC training. The standard training involved wearing a uniform, NCC pants and shirt with a cap, and drilling for an hour daily. <H>&ldquo;एक घंटा NCC करते थे मार्च पास करते थे,&rdquo;</H> she recalls. They learned to march in formation, received 10 grams of butter and a roll each session, and practiced coordinated movements with various implements including a musical stick. A wooden rod with chains and bells that would chime as they maneuvered it. <H>&ldquo;मैं ग्रुप लीडर हुआ करती थी उसमें सबको सिखाती थी,&rdquo;</H> she notes. She was group leader for this too, teaching everyone the movements.
           </p>
 
           <p className="ls-para">
-            But everything changed after 1962. <H>&ldquo;जब China की लड़ाई हुई 62 में तो 63 में हमको उन्होंने rifle training दी,&rdquo;</H> she explains. The India-China war brought a new intensity to their training. In her third year, they learned actual rifle handling. <H>&ldquo;कंधे पर rifle को रख के इधर सीधे कंधे पे और निशाना लगाना कि कहां जाएगा,&rdquo;</H> she describes&mdash;how to hold the rifle on the shoulder, how to take aim, where the bullet would go. She actually fired real rifles.
+            But everything changed after 1962. <H>&ldquo;जब China की लड़ाई हुई 62 में तो 63 में हमको उन्होंने rifle training दी,&rdquo;</H> she explains. The India-China war brought a new intensity to their training. In her third year, they learned actual rifle handling. <H>&ldquo;कंधे पर rifle को रख के इधर सीधे कंधे पे और निशाना लगाना कि कहां जाएगा,&rdquo;</H> she describes. How to hold the rifle on the shoulder, how to take aim, where the bullet would go. She actually fired real rifles.
           </p>
 
           <p className="ls-para">
-            The practical application never came. <H>&ldquo;पर उसका कोई उपयोग नहीं हुआ। बस हम सीख के रह गए,&rdquo;</H> she admits&mdash;they learned but never used it in actual service. Yet something more important stayed with her:
+            The practical application never came. <H>&ldquo;पर उसका कोई उपयोग नहीं हुआ। बस हम सीख के रह गए,&rdquo;</H> she admits. They learned but never used it in actual service. Yet something more important stayed with her:
           </p>
 
           <PullQuote
@@ -290,7 +290,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            That spirit of determination, of never giving up, of being willing to sacrifice everything for what matters&mdash;this became part of her character. She also played sports. <H>&ldquo;थ्रोबॉल खेलते थे,&rdquo;</H> she says&mdash;essentially baseball. Between the physical training, the rifle practice, the marching drills, the sports, and the daily walking, she built extraordinary physical strength.
+            That spirit of determination, of never giving up, of being willing to sacrifice everything for what matters. This became part of her character. She also played sports. <H>&ldquo;थ्रोबॉल खेलते थे,&rdquo;</H> she says. Essentially baseball. Between the physical training, the rifle practice, the marching drills, the sports, and the daily walking, she built extraordinary physical strength.
           </p>
         </section>
 
@@ -306,15 +306,15 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            From July to December 1968, while pregnant with her first son, she taught mathematics to eighth standard students. <H>&ldquo;अर्थमेटिक ज्योमेट्री और अलजेब्रा तीनों सब्जेक्ट पढ़ाती थी,&rdquo;</H> she lists&mdash;arithmetic, geometry, and algebra, all three subjects. Her teaching method was remarkable: <H>&ldquo;बिना देखे कुछ किताब खोली और पढ़ा दिया। कभी मैं पढ़ के नहीं पढ़ती थी,&rdquo;</H> she emphasizes. She never opened the book to teach, never read and then taught&mdash;just taught directly from her understanding. <H>&ldquo;मेरा मैथ बहुत अच्छा था,&rdquo;</H> she states simply. She still possesses the certificate stating she taught excellently.
+            From July to December 1968, while pregnant with her first son, she taught mathematics to eighth standard students. <H>&ldquo;अर्थमेटिक ज्योमेट्री और अलजेब्रा तीनों सब्जेक्ट पढ़ाती थी,&rdquo;</H> she lists. Arithmetic, geometry, and algebra, all three subjects. Her teaching method was remarkable: <H>&ldquo;बिना देखे कुछ किताब खोली और पढ़ा दिया। कभी मैं पढ़ के नहीं पढ़ती थी,&rdquo;</H> she emphasizes. She never opened the book to teach, never read and then taught. Just taught directly from her understanding. <H>&ldquo;मेरा मैथ बहुत अच्छा था,&rdquo;</H> she states simply. She still possesses the certificate stating she taught excellently.
           </p>
 
           <p className="ls-para">
-            But the salary was modest&mdash;fifteen rupees per month. Others with B.Ed. degrees earned more, so she decided to get the qualification herself. The B.Ed. course in 1970-71 presented challenges. She had to manage four different locations: a Parai school, a college, a hostel where she sometimes stayed overnight, and her home where her small son waited.
+            But the salary was modest. Fifteen rupees per month. Others with B.Ed. degrees earned more, so she decided to get the qualification herself. The B.Ed. course in 1970-71 presented challenges. She had to manage four different locations: a Parai school, a college, a hostel where she sometimes stayed overnight, and her home where her small son waited.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;एक दिन जिद कर ली इन्होंने कि मम्मी को लेके ही जाऊंगा मैं,&rdquo;</H> she remembers with a laugh. One day her son insisted at the hostel: I will take Mummy with me, I won&rsquo;t leave without her. The warden finally said, <H>&ldquo;तुम घर जाओ बच्चा तुम्हारा साथ जाएगा&rdquo;</H>&mdash;you go home, the child will go with you. After B.Ed., her salary jumped to fifty rupees. The practical value of education was clear to her, not just the theoretical knowledge but its concrete impact on life.
+            <H>&ldquo;एक दिन जिद कर ली इन्होंने कि मम्मी को लेके ही जाऊंगा मैं,&rdquo;</H> she remembers with a laugh. One day her son insisted at the hostel: I will take Mummy with me, I won&rsquo;t leave without her. The warden finally said, <H>&ldquo;तुम घर जाओ बच्चा तुम्हारा साथ जाएगा&rdquo;</H> You go home, the child will go with you. After B.Ed., her salary jumped to fifty rupees. The practical value of education was clear to her, not just the theoretical knowledge but its concrete impact on life.
           </p>
         </section>
 
@@ -326,23 +326,23 @@ function LifeStory() {
           <h2>Following the Bank: A Nomadic Decade</h2>
 
           <p className="ls-para">
-            Her husband&rsquo;s career with Union Bank of India shaped their next decade. He progressed steadily&mdash;clerk to supervisor to special assistant to officer to manager&mdash;and with each promotion came transfers.
+            Her husband&rsquo;s career with Union Bank of India shaped their next decade. He progressed steadily, clerk to supervisor to special assistant to officer to manager, and with each promotion came transfers.
           </p>
 
           <p className="ls-para">
-            <strong>Jodhpur</strong> came first, from 1967 to 1973. They lived in Shivniwas on Sardarpur B Road, a bank bungalow. Their first son was born there in February 1969, their second in 1973. Those six years in Jodhpur meant <H>&ldquo;बस तीनों बच्चों की बच्चों को&rdquo;</H>&mdash;just serving the children, raising them, managing the household. Her focus was complete: their development, their needs, their future.
+            <strong>Jodhpur</strong> came first, from 1967 to 1973. They lived in Shivniwas on Sardarpur B Road, a bank bungalow. Their first son was born there in February 1969, their second in 1973. Those six years in Jodhpur meant <H>&ldquo;बस तीनों बच्चों की बच्चों को&rdquo;</H> Just serving the children, raising them, managing the household. Her focus was complete: their development, their needs, their future.
           </p>
 
           <p className="ls-para">
-            <strong>Kota</strong> followed from 1973 to 1975. <H>&ldquo;Shopping Center में रहते थे मुफ्तलाल की दुकान है नीचे और ऊपर हमारा मकान था,&rdquo;</H> she describes&mdash;they lived above Muftlal&rsquo;s shop in the shopping center. Their third son was born there in 1974. The house was walking distance from St. Paul&rsquo;s School where the boys studied.
+            <strong>Kota</strong> followed from 1973 to 1975. <H>&ldquo;Shopping Center में रहते थे मुफ्तलाल की दुकान है नीचे और ऊपर हमारा मकान था,&rdquo;</H> she describes. They lived above Muftlal&rsquo;s shop in the shopping center. Their third son was born there in 1974. The house was walking distance from St. Paul&rsquo;s School where the boys studied.
           </p>
 
           <p className="ls-para">
-            Then <strong>Ajmer</strong> for less than a year in 1975-76. They lived near Raja Cycle and Martin Bridge in a bungalow with a courtyard, a Sanjina tree, and large airy rooms. <H>&ldquo;बड़ा घर था हमारा,&rdquo;</H> she notes&mdash;it was a big house. But the stay was brief, another transfer already pending.
+            Then <strong>Ajmer</strong> for less than a year in 1975-76. They lived near Raja Cycle and Martin Bridge in a bungalow with a courtyard, a Sanjina tree, and large airy rooms. <H>&ldquo;बड़ा घर था हमारा,&rdquo;</H> she notes. It was a big house. But the stay was brief, another transfer already pending.
           </p>
 
           <p className="ls-para">
-            <strong>Udaipur</strong> claimed them from 1976 to 1981, a full five years. They lived first on Residency Road, then moved to Bhatt Ji Ki Badi. The lakes&mdash;Pichola, Swaroop Sagar, Fateh Sagar&mdash;lay just a few kilometers away. All three sons attended St. Paul&rsquo;s School in Bhopalpur.
+            <strong>Udaipur</strong> claimed them from 1976 to 1981, a full five years. They lived first on Residency Road, then moved to Bhatt Ji Ki Badi. The lakes, Pichola, Swaroop Sagar, Fateh Sagar, lay just a few kilometers away. All three sons attended St. Paul&rsquo;s School in Bhopalpur.
           </p>
 
           <p className="ls-para">
@@ -355,7 +355,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            The Economics education had shaped her thinking. She had studied how developed countries grew. <H>&ldquo;यह दिमाग में था बस,&rdquo;</H> she emphasizes&mdash;this stayed in her mind.
+            The Economics education had shaped her thinking. She had studied how developed countries grew. <H>&ldquo;यह दिमाग में था बस,&rdquo;</H> she emphasizes. This stayed in her mind.
           </p>
         </section>
 
@@ -371,7 +371,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;मैंने कहा मैं ऐसे मकान में नहीं रहूंगी। दूसरा लेलो,&rdquo;</H> she insisted&mdash;I won&rsquo;t live in such a house. Take another one. They paid to vacate the current residents from their chosen house and moved in.
+            <H>&ldquo;मैंने कहा मैं ऐसे मकान में नहीं रहूंगी। दूसरा लेलो,&rdquo;</H> she insisted. I won&rsquo;t live in such a house. Take another one. They paid to vacate the current residents from their chosen house and moved in.
           </p>
 
           <p className="ls-para">
@@ -387,11 +387,11 @@ function LifeStory() {
           <h2>The Choice: Career or Family</h2>
 
           <p className="ls-para">
-            Once settled in Jaipur, she made a conscious decision about her life&rsquo;s work. The principal of Seedling School approached her: <H>&ldquo;तुम हमारे घर हमारे स्कूल में पढ़ाने आ जाओ&rdquo;</H>&mdash;come teach at our school. <H>&ldquo;मैंने कहा मैं नहीं आ सकती,&rdquo;</H> she responded&mdash;I can&rsquo;t come, I had children at home.
+            Once settled in Jaipur, she made a conscious decision about her life&rsquo;s work. The principal of Seedling School approached her: <H>&ldquo;तुम हमारे घर हमारे स्कूल में पढ़ाने आ जाओ&rdquo;</H> Come teach at our school. <H>&ldquo;मैंने कहा मैं नहीं आ सकती,&rdquo;</H> she responded. I can&rsquo;t come, I had children at home.
           </p>
 
           <p className="ls-para">
-            Instead, she taught privately. <H>&ldquo;तो मैंने बैच में पढ़ाती थी टेबल पर बैठ के,&rdquo;</H> she explains&mdash;she taught in batches, sitting at the table at home. <H>&ldquo;मेरे हाथ के बच्चे बहुत अच्छे निकले,&rdquo;</H> she says with satisfaction. Children taught by her turned out very well. <H>&ldquo;उनकी मां अभी तक मेरे से मिलती है,&rdquo;</H> she notes&mdash;their mothers still meet her today, grateful for the education their children received.
+            Instead, she taught privately. <H>&ldquo;तो मैंने बैच में पढ़ाती थी टेबल पर बैठ के,&rdquo;</H> she explains. She taught in batches, sitting at the table at home. <H>&ldquo;मेरे हाथ के बच्चे बहुत अच्छे निकले,&rdquo;</H> she says with satisfaction. Children taught by her turned out very well. <H>&ldquo;उनकी मां अभी तक मेरे से मिलती है,&rdquo;</H> she notes. Their mothers still meet her today, grateful for the education their children received.
           </p>
 
           <PullQuote
@@ -400,7 +400,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            She accepted the trade-offs frankly. <H>&ldquo;नहीं हुआ डेवलपमेंट कोई बात नहीं,&rdquo;</H> she acknowledges&mdash;if development doesn&rsquo;t happen in other areas, no problem. <H>&ldquo;हॉबीज पूरी नहीं हुई,&rdquo;</H> she admits&mdash;hobbies couldn&rsquo;t all be fulfilled. <H>&ldquo;यह सब किस्मत है मेरी,&rdquo;</H> she concludes&mdash;this is all my fate.
+            She accepted the trade-offs frankly. <H>&ldquo;नहीं हुआ डेवलपमेंट कोई बात नहीं,&rdquo;</H> she acknowledges. If development doesn&rsquo;t happen in other areas, no problem. <H>&ldquo;हॉबीज पूरी नहीं हुई,&rdquo;</H> she admits. Hobbies couldn&rsquo;t all be fulfilled. <H>&ldquo;यह सब किस्मत है मेरी,&rdquo;</H> she concludes. This is all my fate.
           </p>
 
           <p className="ls-para">
@@ -413,11 +413,11 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            Moreover, she wasn&rsquo;t just raising three sons. <H>&ldquo;शुरू से मैं इनके बहन भाई में रही हूं,&rdquo;</H> she notes&mdash;from the beginning, she lived among her husband&rsquo;s siblings. After just one year alone setting up the house, his two sisters and one brother came to live with them. Five people&rsquo;s work became her responsibility.
+            Moreover, she wasn&rsquo;t just raising three sons. <H>&ldquo;शुरू से मैं इनके बहन भाई में रही हूं,&rdquo;</H> she notes. From the beginning, she lived among her husband&rsquo;s siblings. After just one year alone setting up the house, his two sisters and one brother came to live with them. Five people&rsquo;s work became her responsibility.
           </p>
 
           <p className="ls-para">
-            Their weddings, their education, their jobs&mdash;she helped with all of it. <H>&ldquo;कभी मना नहीं किया कि नहीं करूंगी मैं यह काम,&rdquo;</H> she insists&mdash;never refused saying I won&rsquo;t do this work. <H>&ldquo;मैं कहती हूं जो पुण्य का काम हो रहा है मैं पाप की भागी क्यों बनूं मना करके?&rdquo;</H> she asks&mdash;if virtuous work is happening, why become party to sin by refusing? <H>&ldquo;करो भाई हम आ रही हूं,&rdquo;</H> she would say&mdash;do it, brother, I&rsquo;m coming to help.
+            Their weddings, their education, their jobs. She helped with all of it. <H>&ldquo;कभी मना नहीं किया कि नहीं करूंगी मैं यह काम,&rdquo;</H> she insists. Never refused saying I won&rsquo;t do this work. <H>&ldquo;मैं कहती हूं जो पुण्य का काम हो रहा है मैं पाप की भागी क्यों बनूं मना करके?&rdquo;</H> she asks. If virtuous work is happening, why become party to sin by refusing? <H>&ldquo;करो भाई हम आ रही हूं,&rdquo;</H> she would say. Do it, brother, I&rsquo;m coming to help.
           </p>
         </section>
 
@@ -433,23 +433,23 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            In 1978, while still in Udaipur, she took a food preservation course. <H>&ldquo;टॉफी बनानी, जेली बनानी, जैम बनाना, कैंडी बनानी, स्क्वैशेस और सिरप्स यह सब सीखा,&rdquo;</H> she lists&mdash;toffees, jellies, jams, candies, squashes, and syrups, she learned them all.
+            In 1978, while still in Udaipur, she took a food preservation course. <H>&ldquo;टॉफी बनानी, जेली बनानी, जैम बनाना, कैंडी बनानी, स्क्वैशेस और सिरप्स यह सब सीखा,&rdquo;</H> she lists. Toffees, jellies, jams, candies, squashes, and syrups, she learned them all.
           </p>
 
           <p className="ls-para">
-            The moment they arrived in Jaipur in 1981, she enrolled in a cookery and bakery course at Khasa Kothi. <H>&ldquo;Government of India चलाती थी तब मैंने किया,&rdquo;</H> she notes&mdash;the Government of India ran it. One month, alternate days. Pizza, cakes, all bakery items.
+            The moment they arrived in Jaipur in 1981, she enrolled in a cookery and bakery course at Khasa Kothi. <H>&ldquo;Government of India चलाती थी तब मैंने किया,&rdquo;</H> she notes. The Government of India ran it. One month, alternate days. Pizza, cakes, all bakery items.
           </p>
 
           <p className="ls-para">
-            In 1987, six years after settling in Jaipur, she took a six-month cutting and tailoring course. <H>&ldquo;कपड़ों का काटना और सी काट के सिलना उसको,&rdquo;</H> she defines it. The course was comprehensive: <H>&ldquo;जांगिया सिलना, बनियाने सिलनी। फिर उसके बाद फ्रॉक वगैरह बनाने, ब्लाउज बनाने, सलवार कमीज़ बनाने, नाइट सूट बनाने, पेंट बनाने, कमीज़ बनानी बच्चों की,&rdquo;</H> she enumerates&mdash;underwear, vests, frocks, blouses, salwar kameez, nightsuits, pants, children&rsquo;s shirts&mdash;everything.
+            In 1987, six years after settling in Jaipur, she took a six-month cutting and tailoring course. <H>&ldquo;कपड़ों का काटना और सी काट के सिलना उसको,&rdquo;</H> she defines it. The course was comprehensive: <H>&ldquo;जांगिया सिलना, बनियाने सिलनी। फिर उसके बाद फ्रॉक वगैरह बनाने, ब्लाउज बनाने, सलवार कमीज़ बनाने, नाइट सूट बनाने, पेंट बनाने, कमीज़ बनानी बच्चों की,&rdquo;</H> she enumerates. Underwear, vests, frocks, blouses, salwar kameez, nightsuits, pants, children&rsquo;s shirts. Everything.
           </p>
 
           <p className="ls-para">
-            She joined the Kitchen Gardening Association on Tank Road. <H>&ldquo;कई प्राइस दिए उसने,&rdquo;</H> she says&mdash;won several prizes for her gardening work.
+            She joined the Kitchen Gardening Association on Tank Road. <H>&ldquo;कई प्राइस दिए उसने,&rdquo;</H> she says. Won several prizes for her gardening work.
           </p>
 
           <p className="ls-para">
-            Her music education, begun in 1954 with tabla and harmonium, continued intermittently. She gave the second year exam from Allahabad University, bought the third year book, but stopped when her young brother-in-law died at forty-one. <H>&ldquo;तो मैंने छोड़ दिया कि लोग कहेंगे लहंगा वाना बजाती है यह तो जवान देवर मरा है,&rdquo;</H> she explains&mdash;social propriety in mourning demanded she stop. <H>&ldquo;इसलिए मैंने खुद ने ही छोड़ दिया,&rdquo;</H> she emphasizes&mdash;I myself stopped, by my own choice.
+            Her music education, begun in 1954 with tabla and harmonium, continued intermittently. She gave the second year exam from Allahabad University, bought the third year book, but stopped when her young brother-in-law died at forty-one. <H>&ldquo;तो मैंने छोड़ दिया कि लोग कहेंगे लहंगा वाना बजाती है यह तो जवान देवर मरा है,&rdquo;</H> she explains. Social propriety in mourning demanded she stop. <H>&ldquo;इसलिए मैंने खुद ने ही छोड़ दिया,&rdquo;</H> she emphasizes. I myself stopped, by my own choice.
           </p>
 
           <p className="ls-para">
@@ -474,7 +474,7 @@ function LifeStory() {
           <h2>Teaching Values: The Three Core Principles</h2>
 
           <p className="ls-para">
-            Yet of all the education she received, the most fundamental came from her mother. <H>&ldquo;मेरी मां कहती थी मतलब इनकी नानी,&rdquo;</H> she explains&mdash;my mother used to say, meaning their grandmother. Three principles, simple and clear:
+            Yet of all the education she received, the most fundamental came from her mother. <H>&ldquo;मेरी मां कहती थी मतलब इनकी नानी,&rdquo;</H> she explains. My mother used to say, meaning their grandmother. Three principles, simple and clear:
           </p>
 
           <PullQuote
@@ -483,23 +483,23 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            <H>&ldquo;और वही धर्म मैंने पालन किया,&rdquo;</H> she states&mdash;and this same dharma I followed. These weren&rsquo;t abstract principles but practical guidelines lived every day.
+            <H>&ldquo;और वही धर्म मैंने पालन किया,&rdquo;</H> she states. And this same dharma I followed. These weren&rsquo;t abstract principles but practical guidelines lived every day.
           </p>
 
           <p className="ls-para">
-            She passed them to her children with equal firmness. Teaching them to share was lesson one. <H>&ldquo;जैसे अंगूर लाए इनको चार तीनों को बांट दिए,&rdquo;</H> she illustrates&mdash;like grapes, she would distribute to all three sons. <H>&ldquo;और कहा बेटा मुझे दो थोड़े से मैं भी तो खाऊंगी,&rdquo;</H> she would add&mdash;son, give me a couple too, I also want to eat. The rule was absolute: <H>&ldquo;कोई भी चीज़ खाओ तो बांट के खाओ&rdquo;</H>&mdash;whatever you eat, eat by sharing.
+            She passed them to her children with equal firmness. Teaching them to share was lesson one. <H>&ldquo;जैसे अंगूर लाए इनको चार तीनों को बांट दिए,&rdquo;</H> she illustrates. Like grapes, she would distribute to all three sons. <H>&ldquo;और कहा बेटा मुझे दो थोड़े से मैं भी तो खाऊंगी,&rdquo;</H> she would add. Son, give me a couple too, I also want to eat. The rule was absolute: <H>&ldquo;कोई भी चीज़ खाओ तो बांट के खाओ&rdquo;</H> Whatever you eat, eat by sharing.
           </p>
 
           <p className="ls-para">
-            On honesty, she was equally unwavering. <H>&ldquo;फिर इनको सिखाया कि किसी की चीज़ चोरी नहीं करके लेनी है,&rdquo;</H> she taught. If they found something lying around: <H>&ldquo;तो वो भगवान की मंदिर में दे दो&rdquo;</H>&mdash;give it to the temple. The right way was clear: <H>&ldquo;अपनी मेहनत से करो&rdquo;</H>&mdash;earn by your own hard work.
+            On honesty, she was equally unwavering. <H>&ldquo;फिर इनको सिखाया कि किसी की चीज़ चोरी नहीं करके लेनी है,&rdquo;</H> she taught. If they found something lying around: <H>&ldquo;तो वो भगवान की मंदिर में दे दो&rdquo;</H> Give it to the temple. The right way was clear: <H>&ldquo;अपनी मेहनत से करो&rdquo;</H> Earn by your own hard work.
           </p>
 
           <p className="ls-para">
-            She enforced this strictly. <H>&ldquo;कभी पेंसिल भी लिया है तो मैंने कहा वापस दे के आओ,&rdquo;</H> she recalls&mdash;even if they took a pencil by mistake, I said return it immediately. <H>&ldquo;नहीं मैं दे के आऊंगी स्कूल में,&rdquo;</H> she would threaten&mdash;if you don&rsquo;t, I&rsquo;ll go to school and return it myself. The result: they never brought anything home belonging to others.
+            She enforced this strictly. <H>&ldquo;कभी पेंसिल भी लिया है तो मैंने कहा वापस दे के आओ,&rdquo;</H> she recalls. Even if they took a pencil by mistake, I said return it immediately. <H>&ldquo;नहीं मैं दे के आऊंगी स्कूल में,&rdquo;</H> she would threaten. If you don&rsquo;t, I&rsquo;ll go to school and return it myself. The result: they never brought anything home belonging to others.
           </p>
 
           <p className="ls-para">
-            She taught by example too. Never hiring tutors, she taught all three sons herself through twelfth standard. <H>&ldquo;हमने ट्यूशन नहीं लगाई एक बार भी इनको अपने घर में,&rdquo;</H> she states emphatically&mdash;never hired tuitions even once for them at our home. <H>&ldquo;और वो भी क्या था कि मैंने ही पढ़ाती थी इन बच्चों को तीनों को,&rdquo;</H> she continues&mdash;and moreover, I myself taught all three children. Her eldest, when he started giving tuitions himself in twelfth standard for IIT Chemistry preparation, had learned from her teaching.
+            She taught by example too. Never hiring tutors, she taught all three sons herself through twelfth standard. <H>&ldquo;हमने ट्यूशन नहीं लगाई एक बार भी इनको अपने घर में,&rdquo;</H> she states emphatically. Never hired tuitions even once for them at our home. <H>&ldquo;और वो भी क्या था कि मैंने ही पढ़ाती थी इन बच्चों को तीनों को,&rdquo;</H> she continues. And moreover, I myself taught all three children. Her eldest, when he started giving tuitions himself in twelfth standard for IIT Chemistry preparation, had learned from her teaching.
           </p>
         </section>
 
@@ -511,19 +511,19 @@ function LifeStory() {
           <h2>The Philosophy of the Four Ashrams</h2>
 
           <p className="ls-para">
-            As she reached her eighties, her understanding of life&rsquo;s structure became clearer and more important to her. <H>&ldquo;चार आश्रम होते हैं,&rdquo;</H> she explains&mdash;there are four ashrams, four stages of life:
+            As she reached her eighties, her understanding of life&rsquo;s structure became clearer and more important to her. <H>&ldquo;चार आश्रम होते हैं,&rdquo;</H> she explains. There are four ashrams, four stages of life:
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;एक बाल आश्रम होता है&rdquo;</H>&mdash;Bal Ashram, childhood, from birth to twenty-five. <H>&ldquo;गृहस्थ आश्रम होता है&rdquo;</H>&mdash;Grihastha Ashram, householder stage, twenty-five to fifty. <H>&ldquo;एक वानप्रस्थ आश्रम होता है&rdquo;</H>&mdash;Vanprastha Ashram, retirement stage, fifty to seventy-five. <H>&ldquo;और एक सन्यास आश्रम&rdquo;</H>&mdash;And Sanyas Ashram, renunciation stage, seventy-five onward.
+            <H>&ldquo;एक बाल आश्रम होता है&rdquo;</H> Bal Ashram, childhood, from birth to twenty-five. <H>&ldquo;गृहस्थ आश्रम होता है&rdquo;</H> Grihastha Ashram, householder stage, twenty-five to fifty. <H>&ldquo;एक वानप्रस्थ आश्रम होता है&rdquo;</H> Vanprastha Ashram, retirement stage, fifty to seventy-five. <H>&ldquo;और एक सन्यास आश्रम&rdquo;</H> And Sanyas Ashram, renunciation stage, seventy-five onward.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;तो अब मैं सन्यास आश्रम में आ गई,&rdquo;</H> she declares&mdash;now I&rsquo;ve entered the Sanyas Ashram at eighty-one. <H>&ldquo;तो मुझे दुनिया से को छोड़ना है,&rdquo;</H> she explains&mdash;I must leave worldly attachments. <H>&ldquo;मतलब धीरे-धीरे कटिंग करनी है हर चीज़ की और भगवान में लगना है,&rdquo;</H> she continues&mdash;gradually cut off from everything and engage in God.
+            <H>&ldquo;तो अब मैं सन्यास आश्रम में आ गई,&rdquo;</H> she declares. Now I&rsquo;ve entered the Sanyas Ashram at eighty-one. <H>&ldquo;तो मुझे दुनिया से को छोड़ना है,&rdquo;</H> she explains. I must leave worldly attachments. <H>&ldquo;मतलब धीरे-धीरे कटिंग करनी है हर चीज़ की और भगवान में लगना है,&rdquo;</H> she continues. Gradually cut off from everything and engage in God.
           </p>
 
           <p className="ls-para">
-            This wasn&rsquo;t mere theory. It manifested in concrete changes. <H>&ldquo;अब ज्यादा तामझाम पसंद नहीं करती,&rdquo;</H> she notes&mdash;don&rsquo;t like too much pomp and show now. <H>&ldquo;शादी में जाना पसंद नहीं करती,&rdquo;</H> she adds&mdash;don&rsquo;t like going to weddings. <H>&ldquo;अकेले में रहना पसंद करती हूं,&rdquo;</H> she states&mdash;prefer to stay alone, so she can focus on her daily routine.
+            This wasn&rsquo;t mere theory. It manifested in concrete changes. <H>&ldquo;अब ज्यादा तामझाम पसंद नहीं करती,&rdquo;</H> she notes. Don&rsquo;t like too much pomp and show now. <H>&ldquo;शादी में जाना पसंद नहीं करती,&rdquo;</H> she adds. Don&rsquo;t like going to weddings. <H>&ldquo;अकेले में रहना पसंद करती हूं,&rdquo;</H> she states. Prefer to stay alone, so she can focus on her daily routine.
           </p>
 
           <PullQuote
@@ -532,7 +532,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            Looking back, she evaluated her life by this framework. <H>&ldquo;बाल आश्रम में बचपन की चीज़ें,&rdquo;</H> she reflects&mdash;in childhood stage, did childhood things properly. <H>&ldquo;गृहस्थ आश्रम में गृहस्थ की सारी चीज़ें,&rdquo;</H> she continues&mdash;in householder stage, did all household duties. Weddings, birthdays, mundan ceremonies&mdash;all completed. Now in Sanyas Ashram, her focus had shifted fundamentally. The time for social obligations had passed. The time for spiritual practice had arrived.
+            Looking back, she evaluated her life by this framework. <H>&ldquo;बाल आश्रम में बचपन की चीज़ें,&rdquo;</H> she reflects. In childhood stage, did childhood things properly. <H>&ldquo;गृहस्थ आश्रम में गृहस्थ की सारी चीज़ें,&rdquo;</H> she continues. In householder stage, did all household duties. Weddings, birthdays, mundan ceremonies. All completed. Now in Sanyas Ashram, her focus had shifted fundamentally. The time for social obligations had passed. The time for spiritual practice had arrived.
           </p>
         </section>
 
@@ -544,23 +544,23 @@ function LifeStory() {
           <h2>Daily Spiritual Practice: The Morning Routine</h2>
 
           <p className="ls-para">
-            Every morning at seven o&rsquo;clock sharp, she walks to the temple. <H>&ldquo;7:00 बजे आरती होती है,&rdquo;</H> she states. She attends not one but three aartis sequentially. <H>&ldquo;एक तो होती है शिव जी की आरती,&rdquo;</H> she lists&mdash;first is Shiv Ji&rsquo;s aarti. <H>&ldquo;दूसरी होती है ओम जय जगदीश हरे राम कृष्ण लक्ष्मण सीता हनुमान जी की और राधा गोविंद की,&rdquo;</H> she continues&mdash;second is the Om Jai Jagdish Hare for Ram, Krishna, Laxman, Sita, Hanuman, and Radha Govind. <H>&ldquo;तीसरी होती है गणेश जी की,&rdquo;</H> she completes&mdash;third is Ganesh Ji&rsquo;s aarti.
+            Every morning at seven o&rsquo;clock sharp, she walks to the temple. <H>&ldquo;7:00 बजे आरती होती है,&rdquo;</H> she states. She attends not one but three aartis sequentially. <H>&ldquo;एक तो होती है शिव जी की आरती,&rdquo;</H> she lists. First is Shiv Ji&rsquo;s aarti. <H>&ldquo;दूसरी होती है ओम जय जगदीश हरे राम कृष्ण लक्ष्मण सीता हनुमान जी की और राधा गोविंद की,&rdquo;</H> she continues. Second is the Om Jai Jagdish Hare for Ram, Krishna, Laxman, Sita, Hanuman, and Radha Govind. <H>&ldquo;तीसरी होती है गणेश जी की,&rdquo;</H> she completes. Third is Ganesh Ji&rsquo;s aarti.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;तीनों आरती करके प्रसाद ले के वहां से मैं फिर घर आती हूं,&rdquo;</H> she explains&mdash;after all three aartis, taking prasad, then returning home.
+            <H>&ldquo;तीनों आरती करके प्रसाद ले के वहां से मैं फिर घर आती हूं,&rdquo;</H> she explains. After all three aartis, taking prasad, then returning home.
           </p>
 
           <p className="ls-para">
-            Returning home, she faces her second major spiritual practice: writing. <H>&ldquo;रोज़ दो पेज लिखती हूं,&rdquo;</H> she states&mdash;two pages daily. Not just any writing&mdash;she writes <H>&ldquo;जय श्री कृष्णा&rdquo;</H> repeatedly, methodically, devotionally.
+            Returning home, she faces her second major spiritual practice: writing. <H>&ldquo;रोज़ दो पेज लिखती हूं,&rdquo;</H> she states. Two pages daily. Not just any writing. She writes <H>&ldquo;जय श्री कृष्णा&rdquo;</H> repeatedly, methodically, devotionally.
           </p>
 
           <p className="ls-para">
-            Her system is precise. <H>&ldquo;छह कॉलम बने हुए हैं पेज में एक कॉलम में 37 नाम आते हैं,&rdquo;</H> she explains&mdash;six columns per page, thirty-seven names per column. <H>&ldquo;छह कॉलम में 222 नाम आ जाते हैं,&rdquo;</H> she calculates&mdash;222 names total per page. Since 108 names equal one mala, two malas complete per page. Two pages equal four malas. <H>&ldquo;रोज़ लिखना मेरा काम है,&rdquo;</H> she emphasizes&mdash;writing this daily is my work.
+            Her system is precise. <H>&ldquo;छह कॉलम बने हुए हैं पेज में एक कॉलम में 37 नाम आते हैं,&rdquo;</H> she explains. Six columns per page, thirty-seven names per column. <H>&ldquo;छह कॉलम में 222 नाम आ जाते हैं,&rdquo;</H> she calculates. 222 names total per page. Since 108 names equal one mala, two malas complete per page. Two pages equal four malas. <H>&ldquo;रोज़ लिखना मेरा काम है,&rdquo;</H> she emphasizes. Writing this daily is my work.
           </p>
 
           <p className="ls-para">
-            But her system includes an ingenious safeguard. <H>&ldquo;यह दो पेज एडवांस में लिख के रखूंगी,&rdquo;</H> she explains&mdash;she writes two pages in advance. The reasoning came from experience. When she went to the hospital on the third, her writing was already done. When she returned on the fifth, she wrote for the fourth and fifth. Day by day, advancing, she reached several days ahead.
+            But her system includes an ingenious safeguard. <H>&ldquo;यह दो पेज एडवांस में लिख के रखूंगी,&rdquo;</H> she explains. She writes two pages in advance. The reasoning came from experience. When she went to the hospital on the third, her writing was already done. When she returned on the fifth, she wrote for the fourth and fifth. Day by day, advancing, she reached several days ahead.
           </p>
 
           <PullQuote
@@ -569,11 +569,11 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            Her third practice is reading. <H>&ldquo;बस गीता पढ़ती हूं,&rdquo;</H> she states simply. The Bhagavad Gita gives her something essential. <H>&ldquo;गीता से मुझे ज्ञान मिलता है कि कैसे अपन को जीवन जीना है,&rdquo;</H> she explains&mdash;Gita gives knowledge of how to live life. <H>&ldquo;कैसे दूसरों से समझना है कि भाई यह प्राणी क्या है,&rdquo;</H> she continues&mdash;how to understand others, what are these beings. <H>&ldquo;पेड़ पौधे पशु पक्षी इंसान क्यों बने कैसे बने भगवान ने यह सारे,&rdquo;</H> she muses&mdash;trees, plants, animals, birds, humans&mdash;why did God make all these, how were they made.
+            Her third practice is reading. <H>&ldquo;बस गीता पढ़ती हूं,&rdquo;</H> she states simply. The Bhagavad Gita gives her something essential. <H>&ldquo;गीता से मुझे ज्ञान मिलता है कि कैसे अपन को जीवन जीना है,&rdquo;</H> she explains. Gita gives knowledge of how to live life. <H>&ldquo;कैसे दूसरों से समझना है कि भाई यह प्राणी क्या है,&rdquo;</H> she continues. How to understand others, what are these beings. <H>&ldquo;पेड़ पौधे पशु पक्षी इंसान क्यों बने कैसे बने भगवान ने यह सारे,&rdquo;</H> she muses. Trees, plants, animals, birds, humans. Why did God make all these, how were they made.
           </p>
 
           <p className="ls-para">
-            She also attended Shiv Puran discourses at the temple. These discourses taught <H>&ldquo;सृष्टि क्या है और अपन को कैसे रहना है&rdquo;</H>&mdash;what is creation and how should we live. But she was thoughtful about application. The ancient texts describe Satya Yuga, Treta Yuga, Dwapara Yuga, and now Kaliyuga. <H>&ldquo;वो वाली चीज़ें यहाँ फिट नहीं बैठती है,&rdquo;</H> she observed astutely&mdash;those old practices don&rsquo;t fit here now. <H>&ldquo;लेकिन जहाँ तक वो उन चीज़ों का जो सार है जो उद्देश्य है जो लक्ष्य है उसको पकड़े रखो,&rdquo;</H> she advised&mdash;but whatever is the essence, the purpose, the goal&mdash;hold onto THAT. <H>&ldquo;लेकिन अपन को लक्ष्य पे पहुँचना है,&rdquo;</H> she insisted&mdash;but we must reach the goal.
+            She also attended Shiv Puran discourses at the temple. These discourses taught <H>&ldquo;सृष्टि क्या है और अपन को कैसे रहना है&rdquo;</H> What is creation and how should we live. But she was thoughtful about application. The ancient texts describe Satya Yuga, Treta Yuga, Dwapara Yuga, and now Kaliyuga. <H>&ldquo;वो वाली चीज़ें यहाँ फिट नहीं बैठती है,&rdquo;</H> she observed astutely. Those old practices don&rsquo;t fit here now. <H>&ldquo;लेकिन जहाँ तक वो उन चीज़ों का जो सार है जो उद्देश्य है जो लक्ष्य है उसको पकड़े रखो,&rdquo;</H> she advised, but whatever is the essence, the purpose, the goal, hold onto THAT. <H>&ldquo;लेकिन अपन को लक्ष्य पे पहुँचना है,&rdquo;</H> she insisted. But we must reach the goal.
           </p>
         </section>
 
@@ -585,7 +585,7 @@ function LifeStory() {
           <h2>The Philosophy of Karma and Rebirth</h2>
 
           <p className="ls-para">
-            Her spiritual study gave her a clear framework for understanding action and consequence. <H>&ldquo;गीता कहती है कि अगर सात्विक कर्म किए तो देव योनि मिलेगी,&rdquo;</H> she explains&mdash;Gita says if you do satvik (pure) actions, you&rsquo;ll get divine birth. <H>&ldquo;और अगर राजस कर्म किए तो मनुष्य योनि मिलेगी,&rdquo;</H> she continues&mdash;if rajasic (passionate) actions, human birth. <H>&ldquo;और अगर आपने तामसी कर्म किए तो कीट पतंगा नीची वाली योनियाँ मिलेगी,&rdquo;</H> she completes&mdash;if tamasic (dark) actions, you&rsquo;ll become insects, moths, lower life forms.
+            Her spiritual study gave her a clear framework for understanding action and consequence. <H>&ldquo;गीता कहती है कि अगर सात्विक कर्म किए तो देव योनि मिलेगी,&rdquo;</H> she explains. Gita says if you do satvik (pure) actions, you&rsquo;ll get divine birth. <H>&ldquo;और अगर राजस कर्म किए तो मनुष्य योनि मिलेगी,&rdquo;</H> she continues. If rajasic (passionate) actions, human birth. <H>&ldquo;और अगर आपने तामसी कर्म किए तो कीट पतंगा नीची वाली योनियाँ मिलेगी,&rdquo;</H> she completes. If tamasic (dark) actions, you&rsquo;ll become insects, moths, lower life forms.
           </p>
 
           <PullQuote
@@ -594,15 +594,15 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            But here&rsquo;s the crucial teaching: <H>&ldquo;फिर मरने के बाद यह चीज़ें 10 गुना ज्यादा होकर मिलती है,&rdquo;</H> she emphasizes. After death, these things return tenfold. If you steal one rupee, you&rsquo;ll repay ten after death. Why? Because what accompanies you is not the physical body but the subtle body&mdash;mind, consciousness, intellect, and the actions of the senses. <H>&ldquo;जैसा कि गीता बताती है,&rdquo;</H> she adds&mdash;as Gita explains.
+            But here&rsquo;s the crucial teaching: <H>&ldquo;फिर मरने के बाद यह चीज़ें 10 गुना ज्यादा होकर मिलती है,&rdquo;</H> she emphasizes. After death, these things return tenfold. If you steal one rupee, you&rsquo;ll repay ten after death. Why? Because what accompanies you is not the physical body but the subtle body. Mind, consciousness, intellect, and the actions of the senses. <H>&ldquo;जैसा कि गीता बताती है,&rdquo;</H> she adds. As Gita explains.
           </p>
 
           <p className="ls-para">
-            So her reasoning was clear: <H>&ldquo;तो मैं यही सोचती हूँ क्यों अपन ऐसे काम करें जिस से कि अधोग योनि में पड़े दुःख पाए,&rdquo;</H> she asks&mdash;why should we do deeds that lead to lower birth and suffering? <H>&ldquo;अपन अच्छे कर्म करें जिस से अच्छी योनि में जाए। अच्छे विचार रखें बस,&rdquo;</H> she summarizes&mdash;do good deeds so we go to good rebirth. Keep good thoughts, that&rsquo;s all.
+            So her reasoning was clear: <H>&ldquo;तो मैं यही सोचती हूँ क्यों अपन ऐसे काम करें जिस से कि अधोग योनि में पड़े दुःख पाए,&rdquo;</H> she asks. Why should we do deeds that lead to lower birth and suffering? <H>&ldquo;अपन अच्छे कर्म करें जिस से अच्छी योनि में जाए। अच्छे विचार रखें बस,&rdquo;</H> she summarizes. Do good deeds so we go to good rebirth. Keep good thoughts, that&rsquo;s all.
           </p>
 
           <p className="ls-para">
-            Interestingly, she didn&rsquo;t want moksha, liberation from the cycle entirely. <H>&ldquo;और मोक्ष नहीं चाहती कि भगवान के वहाँ जाकर बैठ जाए,&rdquo;</H> she declares. Instead: <H>&ldquo;पुण्य करो भगवान के वहाँ जाओ थोड़े दिन जितने पुण्य है उतने भोगो फिर वापस आ जाओ,&rdquo;</H> she explains&mdash;do good deeds, go to God&rsquo;s realm, enjoy for a while according to your merit, then come back. She wanted to keep serving, keep coming back, keep being useful. Permanent mergence with God didn&rsquo;t appeal to her service-oriented nature.
+            Interestingly, she didn&rsquo;t want moksha, liberation from the cycle entirely. <H>&ldquo;और मोक्ष नहीं चाहती कि भगवान के वहाँ जाकर बैठ जाए,&rdquo;</H> she declares. Instead: <H>&ldquo;पुण्य करो भगवान के वहाँ जाओ थोड़े दिन जितने पुण्य है उतने भोगो फिर वापस आ जाओ,&rdquo;</H> she explains. Do good deeds, go to God&rsquo;s realm, enjoy for a while according to your merit, then come back. She wanted to keep serving, keep coming back, keep being useful. Permanent mergence with God didn&rsquo;t appeal to her service-oriented nature.
           </p>
         </section>
 
@@ -614,11 +614,11 @@ function LifeStory() {
           <h2>Dealing with People: Making Friends, Not Enemies</h2>
 
           <p className="ls-para">
-            Her approach to human relationships reflected deep psychological understanding. <H>&ldquo;बुराई अगर किसी की देख ली अपन ने उसको वहीं त्याग दो,&rdquo;</H> she advises&mdash;if you see evil in someone, leave it right there. <H>&ldquo;और अपने मुँह मोड़ के अपना रास्ता पकड़ लो,&rdquo;</H> she continues&mdash;turn your face and take your own path.
+            Her approach to human relationships reflected deep psychological understanding. <H>&ldquo;बुराई अगर किसी की देख ली अपन ने उसको वहीं त्याग दो,&rdquo;</H> she advises. If you see evil in someone, leave it right there. <H>&ldquo;और अपने मुँह मोड़ के अपना रास्ता पकड़ लो,&rdquo;</H> she continues. Turn your face and take your own path.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;संसार में सब तरह की चीज़ें मिलेंगी,&rdquo;</H> she observes&mdash;in this world you&rsquo;ll find all types. Good people and bad people both. The critical instruction: <H>&ldquo;घृणा किसी से मत करो&rdquo;</H>&mdash;don&rsquo;t hate anyone. Why? Because it strikes back at you.
+            <H>&ldquo;संसार में सब तरह की चीज़ें मिलेंगी,&rdquo;</H> she observes. In this world you&rsquo;ll find all types. Good people and bad people both. The critical instruction: <H>&ldquo;घृणा किसी से मत करो&rdquo;</H> Don&rsquo;t hate anyone. Why? Because it strikes back at you.
           </p>
 
           <PullQuote
@@ -627,23 +627,23 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            She illustrated the fundamental choice we face with every person: if you think of people as enemies&mdash;&ldquo;Oh no, where did they come from?&rdquo;&mdash;confusion comes. But if you think positively&mdash;a friend is meeting, how wonderful!&mdash;clarity comes.
+            She illustrated the fundamental choice we face with every person: if you think of people as enemies, &ldquo;Oh no, where did they come from?&rdquo;. Confusion comes. But if you think positively, a friend is meeting, how wonderful!, clarity comes.
           </p>
 
           <p className="ls-para">
-            To remove confusion: <H>&ldquo;ना तो खुश हो और ना दुःख मनाओ,&rdquo;</H> she advises&mdash;neither be too happy nor sad. <H>&ldquo;सबको समान मानो,&rdquo;</H> she instructs&mdash;consider everyone equal. <H>&ldquo;अच्छी चीज़ों को पकड़ के आगे बढ़ो। उनको फेंक दो कचरे की टोकरी में,&rdquo;</H> she concludes&mdash;catch the good things and move forward. Throw the bad things in the garbage basket.
+            To remove confusion: <H>&ldquo;ना तो खुश हो और ना दुःख मनाओ,&rdquo;</H> she advises. Neither be too happy nor sad. <H>&ldquo;सबको समान मानो,&rdquo;</H> she instructs. Consider everyone equal. <H>&ldquo;अच्छी चीज़ों को पकड़ के आगे बढ़ो। उनको फेंक दो कचरे की टोकरी में,&rdquo;</H> she concludes. Catch the good things and move forward. Throw the bad things in the garbage basket.
           </p>
 
           <p className="ls-para">
-            When someone insulted you, her mother&rsquo;s teaching applied: <H>&ldquo;किसी ने गाली दी तो गाली तुम्हारी नहीं हुई अगर तुम&rdquo;</H>&mdash;if someone gives an insult, it&rsquo;s not yours if you don&rsquo;t accept it.
+            When someone insulted you, her mother&rsquo;s teaching applied: <H>&ldquo;किसी ने गाली दी तो गाली तुम्हारी नहीं हुई अगर तुम&rdquo;</H> If someone gives an insult, it&rsquo;s not yours if you don&rsquo;t accept it.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;पर दुःख तब होता था,&rdquo;</H> she admits honestly&mdash;but sometimes it hurt. When pain came, she would tell someone to lighten the sorrow&mdash;<H>&ldquo;भाई ऐसा आज हुआ यह हुआ वो हुआ,&rdquo;</H> she would share. But she didn&rsquo;t seek solution or revenge. Her action was measured: decided to stay away from that person so she heard minimum from them. <H>&ldquo;पर उसको जवाब नहीं दिया,&rdquo;</H> she emphasizes&mdash;but didn&rsquo;t give them a reply. Didn&rsquo;t retaliate. Better to maintain distance than create ongoing conflict.
+            <H>&ldquo;पर दुःख तब होता था,&rdquo;</H> she admits honestly. But sometimes it hurt. When pain came, she would tell someone to lighten the sorrow: <H>&ldquo;भाई ऐसा आज हुआ यह हुआ वो हुआ,&rdquo;</H> she would share. But she didn&rsquo;t seek solution or revenge. Her action was measured: decided to stay away from that person so she heard minimum from them. <H>&ldquo;पर उसको जवाब नहीं दिया,&rdquo;</H> she emphasizes. But didn&rsquo;t give them a reply. Didn&rsquo;t retaliate. Better to maintain distance than create ongoing conflict.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;तो ऐसे करके अपनी ज़िंदगी मैंने तो निकाली है,&rdquo;</H> she summarizes&mdash;this is how I led my life. No gossip, focus on work, avoid negativity, make friends, keep distance from those who can&rsquo;t be friends, but never create enemies.
+            <H>&ldquo;तो ऐसे करके अपनी ज़िंदगी मैंने तो निकाली है,&rdquo;</H> she summarizes. This is how I led my life. No gossip, focus on work, avoid negativity, make friends, keep distance from those who can&rsquo;t be friends, but never create enemies.
           </p>
         </section>
 
@@ -655,11 +655,11 @@ function LifeStory() {
           <h2>The Debt Philosophy: Serving Without Creating Obligation</h2>
 
           <p className="ls-para">
-            As she grew older, a particular philosophy intensified. <H>&ldquo;मैं सबकी कर्ज़दार थी,&rdquo;</H> she reflects&mdash;I was indebted to everyone. <H>&ldquo;जो मैं चुकाती रही सारे लोन कि भाई इनकी सेवा करो,&rdquo;</H> she explains&mdash;which she kept repaying like loans, serving them.
+            As she grew older, a particular philosophy intensified. <H>&ldquo;मैं सबकी कर्ज़दार थी,&rdquo;</H> she reflects. I was indebted to everyone. <H>&ldquo;जो मैं चुकाती रही सारे लोन कि भाई इनकी सेवा करो,&rdquo;</H> she explains. Which she kept repaying like loans, serving them.
           </p>
 
           <p className="ls-para">
-            But her thinking evolved. <H>&ldquo;किसी की सेवा नहीं लेनी,&rdquo;</H> she states&mdash;don&rsquo;t take anyone&rsquo;s service. <H>&ldquo;चाहे बेटा भी हो,&rdquo;</H> she continues&mdash;even if it&rsquo;s your own son. <H>&ldquo;उसका भी करके चलो,&rdquo;</H> she instructs&mdash;do his work yourself too. <H>&ldquo;जिस से उसका ऋण अपने ऊपर नहीं चढ़े,&rdquo;</H> she reasons&mdash;so his debt doesn&rsquo;t accumulate on you.
+            But her thinking evolved. <H>&ldquo;किसी की सेवा नहीं लेनी,&rdquo;</H> she states. Don&rsquo;t take anyone&rsquo;s service. <H>&ldquo;चाहे बेटा भी हो,&rdquo;</H> she continues. Even if it&rsquo;s your own son. <H>&ldquo;उसका भी करके चलो,&rdquo;</H> she instructs. Do his work yourself too. <H>&ldquo;जिस से उसका ऋण अपने ऊपर नहीं चढ़े,&rdquo;</H> she reasons. So his debt doesn&rsquo;t accumulate on you.
           </p>
 
           <PullQuote
@@ -668,11 +668,11 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            Even in her eighties, she still did all her own cleaning, organizing, and housework. She couldn&rsquo;t compromise on three things: <H>&ldquo;स्वास्थ्य और सफाई और धरा उठाई इनसे अभी तक भी समझौता नहीं कर पाई,&rdquo;</H> she states&mdash;health, cleanliness, and organizing.
+            Even in her eighties, she still did all her own cleaning, organizing, and housework. She couldn&rsquo;t compromise on three things: <H>&ldquo;स्वास्थ्य और सफाई और धरा उठाई इनसे अभी तक भी समझौता नहीं कर पाई,&rdquo;</H> she states. Health, cleanliness, and organizing.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;मैं अपने हाथों से सुबह सुबह सफाई वगैरह करती हूँ,&rdquo;</H> she emphasizes&mdash;cleaning with her own hands every morning. This included everything&mdash;dustbins scrubbed with soap if needed, buckets and mugs washed before every bath, fresh water from the tap only, never reusing water. The philosophy extended to teaching: <H>&ldquo;अपने-अपने बिस्तर अपने आप सोकर उठ के तय करो,&rdquo;</H> she instructs&mdash;make your own bed after getting up. This wasn&rsquo;t just about cleanliness but about self-sufficiency, about not creating debts of service even within family.
+            <H>&ldquo;मैं अपने हाथों से सुबह सुबह सफाई वगैरह करती हूँ,&rdquo;</H> she emphasizes. Cleaning with her own hands every morning. This included everything. Dustbins scrubbed with soap if needed, buckets and mugs washed before every bath, fresh water from the tap only, never reusing water. The philosophy extended to teaching: <H>&ldquo;अपने-अपने बिस्तर अपने आप सोकर उठ के तय करो,&rdquo;</H> she instructs. Make your own bed after getting up. This wasn&rsquo;t just about cleanliness but about self-sufficiency, about not creating debts of service even within family.
           </p>
         </section>
 
@@ -684,19 +684,19 @@ function LifeStory() {
           <h2>The Health Crisis and Recovery</h2>
 
           <p className="ls-para">
-            January 2023 brought a moment that could have been fatal. <H>&ldquo;तीन तारीख को मैं हॉस्पिटल गई थी,&rdquo;</H> she recounts&mdash;she went to hospital on the third. Her blood sugar had dropped dangerously. <H>&ldquo;31 शुगर लेवल पहुँच गया,&rdquo;</H> she states&mdash;reached thirty-one. This is critically, life-threateningly low.
+            January 2023 brought a moment that could have been fatal. <H>&ldquo;तीन तारीख को मैं हॉस्पिटल गई थी,&rdquo;</H> she recounts. She went to hospital on the third. Her blood sugar had dropped dangerously. <H>&ldquo;31 शुगर लेवल पहुँच गया,&rdquo;</H> she states. Reached thirty-one. This is critically, life-threateningly low.
           </p>
 
           <p className="ls-para">
-            Her grandson Somya&rsquo;s reaction captured the family&rsquo;s terror: <H>&ldquo;दोनों रोने लग गए,&rdquo;</H> she remembers. <H>&ldquo;सोम्या भी कि दादी को क्या हो गया? दादी को क्या हो गया?&rdquo;</H> she repeats&mdash;Somya crying, &ldquo;What happened to Dadi?&rdquo;
+            Her grandson Somya&rsquo;s reaction captured the family&rsquo;s terror: <H>&ldquo;दोनों रोने लग गए,&rdquo;</H> she remembers. <H>&ldquo;सोम्या भी कि दादी को क्या हो गया? दादी को क्या हो गया?&rdquo;</H> she repeats. Somya crying, &ldquo;What happened to Dadi?&rdquo;
           </p>
 
           <p className="ls-para">
-            But Bhaiyu acted instantly. <H>&ldquo;भवू इमीडिएटली मेरे को ले गया,&rdquo;</H> she says. <H>&ldquo;अगर पाँच मिनट भी देर हो जाती तो पता नहीं क्या होता,&rdquo;</H> she reflects soberly&mdash;if even five minutes delay had happened, who knows what would have happened. Those five minutes could have been the difference between life and death.
+            But Bhaiyu acted instantly. <H>&ldquo;भवू इमीडिएटली मेरे को ले गया,&rdquo;</H> she says. <H>&ldquo;अगर पाँच मिनट भी देर हो जाती तो पता नहीं क्या होता,&rdquo;</H> she reflects soberly. If even five minutes delay had happened, who knows what would have happened. Those five minutes could have been the difference between life and death.
           </p>
 
           <p className="ls-para">
-            The doctor&rsquo;s orders changed her routine fundamentally. <H>&ldquo;डॉक्टर ने कहा दो-दो घंटे से खाओ,&rdquo;</H> she explains&mdash;eat every two hours. <H>&ldquo;भाई काम छोड़ो पहले खाने में लगो,&rdquo;</H> she instructs herself&mdash;leave work, first focus on eating. Eat anything, drink coconut water, then work.
+            The doctor&rsquo;s orders changed her routine fundamentally. <H>&ldquo;डॉक्टर ने कहा दो-दो घंटे से खाओ,&rdquo;</H> she explains. Eat every two hours. <H>&ldquo;भाई काम छोड़ो पहले खाने में लगो,&rdquo;</H> she instructs herself. Leave work, first focus on eating. Eat anything, drink coconut water, then work.
           </p>
 
           <PullQuote
@@ -713,15 +713,15 @@ function LifeStory() {
           <h2>The Steel Body</h2>
 
           <p className="ls-para">
-            Looking back at her physical journey, the progression is remarkable. The childhood of walking, carrying water, playing sports, doing drill, practicing throwball, the NCC training with actual rifle firing, the march practices, the coordination with musical sticks&mdash;all of it built what she proudly calls her steel body.
+            Looking back at her physical journey, the progression is remarkable. The childhood of walking, carrying water, playing sports, doing drill, practicing throwball, the NCC training with actual rifle firing, the march practices, the coordination with musical sticks. All of it built what she proudly calls her steel body.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;जब मैं ससुराल में आती थी तो मैं कहती थी स्टैंड और स्टील की बॉडी बनाई बना के दी है,&rdquo;</H> she recalls telling her in-laws. They built and gave her a body of steel. <H>&ldquo;कितना भी काम कर लो अपन को कोई बीमारी नहीं कुछ नहीं,&rdquo;</H> she declares&mdash;any amount of work, no illness comes.
+            <H>&ldquo;जब मैं ससुराल में आती थी तो मैं कहती थी स्टैंड और स्टील की बॉडी बनाई बना के दी है,&rdquo;</H> she recalls telling her in-laws. They built and gave her a body of steel. <H>&ldquo;कितना भी काम कर लो अपन को कोई बीमारी नहीं कुछ नहीं,&rdquo;</H> she declares. Any amount of work, no illness comes.
           </p>
 
           <p className="ls-para">
-            The only exception: <H>&ldquo;बस सर्दी से बीमारी ब्रोंकाइटिस आती थी,&rdquo;</H> she notes&mdash;only from cold, bronchitis would come. This happened during the hectic years of raising children, constantly going in and out with temperature changes. Otherwise, no other illness came.
+            The only exception: <H>&ldquo;बस सर्दी से बीमारी ब्रोंकाइटिस आती थी,&rdquo;</H> she notes. Only from cold, bronchitis would come. This happened during the hectic years of raising children, constantly going in and out with temperature changes. Otherwise, no other illness came.
           </p>
 
           <p className="ls-para">
@@ -737,19 +737,19 @@ function LifeStory() {
           <h2>The Video Call: Connecting Generations</h2>
 
           <p className="ls-para">
-            The interview itself, conducted via video call during winter break in January 2023, revealed the bridge between generations. Her grandchildren, calling from abroad, showed her their virtual reality experiences&mdash;a new technology she&rsquo;d never heard of. They explained the digital world you can see through devices. <H>&ldquo;अच्छा,&rdquo;</H> she responded with interest.
+            The interview itself, conducted via video call during winter break in January 2023, revealed the bridge between generations. Her grandchildren, calling from abroad, showed her their virtual reality experiences. A new technology she&rsquo;d never heard of. They explained the digital world you can see through devices. <H>&ldquo;अच्छा,&rdquo;</H> she responded with interest.
           </p>
 
           <p className="ls-para">
-            They shared their artwork. Naman showed his resin art pieces, while Manan showed his burn pen art on wood, calligraphy, and lettering practice. <H>&ldquo;मैंने यह मेसेज लिख लिया आपके लिए,&rdquo;</H> he explained&mdash;I wrote this message for you. &ldquo;Enjoy Every Moment,&rdquo; the artwork read. <H>&ldquo;बहुत बढ़िया,&rdquo;</H> she responded warmly.
+            They shared their artwork. Naman showed his resin art pieces, while Manan showed his burn pen art on wood, calligraphy, and lettering practice. <H>&ldquo;मैंने यह मेसेज लिख लिया आपके लिए,&rdquo;</H> he explained. I wrote this message for you. &ldquo;Enjoy Every Moment,&rdquo; the artwork read. <H>&ldquo;बहुत बढ़िया,&rdquo;</H> she responded warmly.
           </p>
 
           <p className="ls-para">
-            They discussed their college studies&mdash;computer science, data science, entrepreneurship courses. <H>&ldquo;बहुत बढ़िया बात,&rdquo;</H> she approved. <H>&ldquo;सफलता के मार्ग पर चल रहे हो,&rdquo;</H> she encouraged&mdash;walking on the path of success. <H>&ldquo;डेवलपिंग स्किल है अच्छी बात,&rdquo;</H> she noted&mdash;developing skills, good thing. <H>&ldquo;कोई ना कोई हॉबी डेवलप करते रहो,&rdquo;</H> she advised&mdash;keep developing some hobby or other.
+            They discussed their college studies. Computer science, data science, entrepreneurship courses. <H>&ldquo;बहुत बढ़िया बात,&rdquo;</H> she approved. <H>&ldquo;सफलता के मार्ग पर चल रहे हो,&rdquo;</H> she encouraged. Walking on the path of success. <H>&ldquo;डेवलपिंग स्किल है अच्छी बात,&rdquo;</H> she noted. Developing skills, good thing. <H>&ldquo;कोई ना कोई हॉबी डेवलप करते रहो,&rdquo;</H> she advised. Keep developing some hobby or other.
           </p>
 
           <p className="ls-para">
-            They showed her Google Maps, searching for her old addresses. Dariba Kalan in Old Delhi&mdash;the railway bungalow locations, long changed. Ramjas College, still standing. She peered at the screen, memory and present converging. <H>&ldquo;हाँ ऐसा ही था,&rdquo;</H> she confirmed&mdash;yes, it was like this. St. Paul&rsquo;s School in Kota, Udaipur addresses, Jodhpur locations&mdash;one by one they reconstructed her geographic journey through technology.
+            They showed her Google Maps, searching for her old addresses. Dariba Kalan in Old Delhi. The railway bungalow locations, long changed. Ramjas College, still standing. She peered at the screen, memory and present converging. <H>&ldquo;हाँ ऐसा ही था,&rdquo;</H> she confirmed. Yes, it was like this. St. Paul&rsquo;s School in Kota, Udaipur addresses, Jodhpur locations. One by one they reconstructed her geographic journey through technology.
           </p>
 
           <p className="ls-para">
@@ -769,19 +769,19 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            From childhood she learned self-sufficiency&mdash;carrying water when needed, walking to school regardless of distance, building physical strength through practical activity. She learned spiritual practices young and maintained them for eight decades. The eye-washing, the sugarcane chewing, the physical discipline&mdash;these weren&rsquo;t temporary enthusiasms but lifetime commitments.
+            From childhood she learned self-sufficiency. Carrying water when needed, walking to school regardless of distance, building physical strength through practical activity. She learned spiritual practices young and maintained them for eight decades. The eye-washing, the sugarcane chewing, the physical discipline. These weren&rsquo;t temporary enthusiasms but lifetime commitments.
           </p>
 
           <p className="ls-para">
-            When education was denied her as a girl, she fought for it. Not with anger but with firm insistence: <H>&ldquo;हम तो पढ़ेंगे&rdquo;</H>&mdash;I will study. She struggled, especially for college, but never wavered. Her father eventually supported her, and she completed not just BA but MA, not to mention B.Ed. and decades of additional courses.
+            When education was denied her as a girl, she fought for it. Not with anger but with firm insistence: <H>&ldquo;हम तो पढ़ेंगे&rdquo;</H> I will study. She struggled, especially for college, but never wavered. Her father eventually supported her, and she completed not just BA but MA, not to mention B.Ed. and decades of additional courses.
           </p>
 
           <p className="ls-para">
-            When Economics education showed her global development patterns, she applied them at home. India was developing; she would help develop her household. <H>&ldquo;कैसे अपने को आगे बढ़ाएं बच्चों को कैसे बढ़ाएं,&rdquo;</H> she made her mission&mdash;how to advance ourselves, advance our children.
+            When Economics education showed her global development patterns, she applied them at home. India was developing; she would help develop her household. <H>&ldquo;कैसे अपने को आगे बढ़ाएं बच्चों को कैसे बढ़ाएं,&rdquo;</H> she made her mission. How to advance ourselves, advance our children.
           </p>
 
           <p className="ls-para">
-            When faced with the choice between career and family, she chose deliberately. <H>&ldquo;इन्हीं का काम जो है वो मेरे लिए वर्क है वही वर्क इज़ वरशिप है,&rdquo;</H> she explained. Their work is my work, that work is worship. <H>&ldquo;यह सब भगवान के जीव हैं,&rdquo;</H> she reasoned&mdash;these are all God&rsquo;s beings. Serving them was serving God.
+            When faced with the choice between career and family, she chose deliberately. <H>&ldquo;इन्हीं का काम जो है वो मेरे लिए वर्क है वही वर्क इज़ वरशिप है,&rdquo;</H> she explained. Their work is my work, that work is worship. <H>&ldquo;यह सब भगवान के जीव हैं,&rdquo;</H> she reasoned. These are all God&rsquo;s beings. Serving them was serving God.
           </p>
 
           <p className="ls-para">
@@ -789,19 +789,19 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            She never stopped learning. Even while raising three sons and often extended family, she pursued courses: food preservation in 1978, cookery and bakery in 1981, cutting and tailoring in 1987, kitchen gardening with prizes, music through second year, astrology in 2001, first aid in 1959. Her daughter-in-law compiled the certificates&mdash;testimony to six decades of continuous growth.
+            She never stopped learning. Even while raising three sons and often extended family, she pursued courses: food preservation in 1978, cookery and bakery in 1981, cutting and tailoring in 1987, kitchen gardening with prizes, music through second year, astrology in 2001, first aid in 1959. Her daughter-in-law compiled the certificates. Testimony to six decades of continuous growth.
           </p>
 
           <p className="ls-para">
-            From the Gita and Puranas she extracted philosophical framework. The four ashrams gave her life structure. The karma philosophy guided her actions. <H>&ldquo;खुशी दोगे तो खुशी लोगे,&rdquo;</H> she understood&mdash;give happiness, get happiness. After death, tenfold return. So choose good actions, good thoughts.
+            From the Gita and Puranas she extracted philosophical framework. The four ashrams gave her life structure. The karma philosophy guided her actions. <H>&ldquo;खुशी दोगे तो खुशी लोगे,&rdquo;</H> she understood. Give happiness, get happiness. After death, tenfold return. So choose good actions, good thoughts.
           </p>
 
           <p className="ls-para">
-            Human relationships followed clear principles: make friends not enemies, throw bad things in the garbage basket, don&rsquo;t hate because it returns to you, maintain distance from those incompatible but never create active conflict. Even debt became spiritual concept&mdash;don&rsquo;t take anyone&rsquo;s service, even from own children. Do everything yourself so debt doesn&rsquo;t accumulate.
+            Human relationships followed clear principles: make friends not enemies, throw bad things in the garbage basket, don&rsquo;t hate because it returns to you, maintain distance from those incompatible but never create active conflict. Even debt became spiritual concept. Don&rsquo;t take anyone&rsquo;s service, even from own children. Do everything yourself so debt doesn&rsquo;t accumulate.
           </p>
 
           <p className="ls-para">
-            Her daily spiritual practice showed her focus: three aartis at 7 AM, writing &ldquo;Jai Shri Krishna&rdquo; two pages daily (four malas), reading Gita, attending Puran discourses. <H>&ldquo;और इस से मुझे बहुत अच्छी शांति मिली है,&rdquo;</H> she testifies&mdash;from this she received very good peace.
+            Her daily spiritual practice showed her focus: three aartis at 7 AM, writing &ldquo;Jai Shri Krishna&rdquo; two pages daily (four malas), reading Gita, attending Puran discourses. <H>&ldquo;और इस से मुझे बहुत अच्छी शांति मिली है,&rdquo;</H> she testifies. From this she received very good peace.
           </p>
 
           <p className="ls-para">
@@ -817,11 +817,11 @@ function LifeStory() {
           <h2>Conclusion: &ldquo;Do or Die&rdquo;</h2>
 
           <p className="ls-para">
-            If one phrase captures her life, it&rsquo;s the lesson from NCC that still ran in her mind after sixty years: <H>&ldquo;डू एंड डाई&rdquo;</H>&mdash;Do or Die. When girls weren&rsquo;t encouraged in education, she insisted and succeeded. When Economics was her weakest subject, she completed Honours. When career conflicted with family, she chose family but elevated it to spiritual practice. When courses were available, she took them into her sixties. When spiritual practice called, she answered with daily discipline. When health crisis struck, she recovered and adapted.
+            If one phrase captures her life, it&rsquo;s the lesson from NCC that still ran in her mind after sixty years: <H>&ldquo;डू एंड डाई&rdquo;</H> Do or Die. When girls weren&rsquo;t encouraged in education, she insisted and succeeded. When Economics was her weakest subject, she completed Honours. When career conflicted with family, she chose family but elevated it to spiritual practice. When courses were available, she took them into her sixties. When spiritual practice called, she answered with daily discipline. When health crisis struck, she recovered and adapted.
           </p>
 
           <p className="ls-para">
-            <H>&ldquo;मेरा तो अब यह जो जीवन है वो ऐसा चल रहा है,&rdquo;</H> she reflected&mdash;my life now is proceeding like this. Not with complaint, not with regret, but with continued purpose. The four ashrams gave structure. The three principles from mother gave foundation. The karma philosophy gave motivation. The steel body gave capability. The continuous learning gave adaptability. The spiritual practice gave peace.
+            <H>&ldquo;मेरा तो अब यह जो जीवन है वो ऐसा चल रहा है,&rdquo;</H> she reflected. My life now is proceeding like this. Not with complaint, not with regret, but with continued purpose. The four ashrams gave structure. The three principles from mother gave foundation. The karma philosophy gave motivation. The steel body gave capability. The continuous learning gave adaptability. The spiritual practice gave peace.
           </p>
 
           <PullQuote
@@ -839,11 +839,11 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            Simple advice from eight decades of living. Good thoughts, good actions, good karma. Serve without creating debt. Learn without stopping. Make friends without making enemies. Throw bad in garbage, keep good close. Share what you have. Return what you borrowed. Don&rsquo;t steal, don&rsquo;t lie, don&rsquo;t hurt with words&mdash;this is serving God.
+            Simple advice from eight decades of living. Good thoughts, good actions, good karma. Serve without creating debt. Learn without stopping. Make friends without making enemies. Throw bad in garbage, keep good close. Share what you have. Return what you borrowed. Don&rsquo;t steal, don&rsquo;t lie, don&rsquo;t hurt with words. This is serving God.
           </p>
 
           <p className="ls-para">
-            From pre-Independence railway bungalow with lamp-lit nights and carried water to video calls with grandchildren across continents discussing virtual reality, from walking miles to school with cloth bags to managing households across cities with three sons educated to success, from fighting for her own education to teaching generations without hired tutors, from learning dozens of courses to writing four malas of &ldquo;Jai Shri Krishna&rdquo; daily in neat columns&mdash;this was a life lived with intention, adaptation, and unwavering commitment to growth and service.
+            From pre-Independence railway bungalow with lamp-lit nights and carried water to video calls with grandchildren across continents discussing virtual reality, from walking miles to school with cloth bags to managing households across cities with three sons educated to success, from fighting for her own education to teaching generations without hired tutors, from learning dozens of courses to writing four malas of &ldquo;Jai Shri Krishna&rdquo; daily in neat columns. This was a life lived with intention, adaptation, and unwavering commitment to growth and service.
           </p>
 
           <p className="ls-para">
