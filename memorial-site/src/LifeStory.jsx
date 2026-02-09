@@ -692,7 +692,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            But Bhavya acted instantly. <H>&ldquo;भवू इमीडिएटली मेरे को ले गया,&rdquo;</H> she says. <H>&ldquo;अगर पाँच मिनट भी देर हो जाती तो पता नहीं क्या होता,&rdquo;</H> she reflects soberly&mdash;if even five minutes delay had happened, who knows what would have happened. Those five minutes could have been the difference between life and death.
+            But Bhaiyu acted instantly. <H>&ldquo;भवू इमीडिएटली मेरे को ले गया,&rdquo;</H> she says. <H>&ldquo;अगर पाँच मिनट भी देर हो जाती तो पता नहीं क्या होता,&rdquo;</H> she reflects soberly&mdash;if even five minutes delay had happened, who knows what would have happened. Those five minutes could have been the difference between life and death.
           </p>
 
           <p className="ls-para">
