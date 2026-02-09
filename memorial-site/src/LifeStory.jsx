@@ -150,7 +150,7 @@ function LifeStory() {
 
           <PullQuote
             hindi="&ldquo;उससे मेरी आंखें बिल्कुल ठीक है। 81 साल की उम्र है तो उस समय भी ठीक है मेरी। मतलब नसें वगैरह मेरी काफी ठीक है जैसा कि सर्जन ने बताया।&rdquo;"
-            english="&ldquo;From this, my eyes are completely fine. At 81 years old, the surgeon says my nerves are remarkably healthy.&rdquo;"
+            english="&ldquo;From this, my eyes are completely fine. At the time, the surgeon said my nerves are remarkably healthy.&rdquo;"
           />
 
           <p className="ls-para">
@@ -668,7 +668,7 @@ function LifeStory() {
           />
 
           <p className="ls-para">
-            At eighty-one, she still did all her own cleaning, organizing, and housework. She couldn&rsquo;t compromise on three things: <H>&ldquo;स्वास्थ्य और सफाई और धरा उठाई इनसे अभी तक भी समझौता नहीं कर पाई,&rdquo;</H> she states&mdash;health, cleanliness, and organizing.
+            Even in her eighties, she still did all her own cleaning, organizing, and housework. She couldn&rsquo;t compromise on three things: <H>&ldquo;स्वास्थ्य और सफाई और धरा उठाई इनसे अभी तक भी समझौता नहीं कर पाई,&rdquo;</H> she states&mdash;health, cleanliness, and organizing.
           </p>
 
           <p className="ls-para">
@@ -710,7 +710,7 @@ function LifeStory() {
         {/* Chapter 20 */}
         <section className="ls-chapter">
           <p className="ls-chapter-number">Chapter Twenty</p>
-          <h2>The Steel Body at Eighty-One</h2>
+          <h2>The Steel Body</h2>
 
           <p className="ls-para">
             Looking back at her physical journey, the progression is remarkable. The childhood of walking, carrying water, playing sports, doing drill, practicing throwball, the NCC training with actual rifle firing, the march practices, the coordination with musical sticks&mdash;all of it built what she proudly calls her steel body.
@@ -725,7 +725,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            At eighty-one, medical professionals confirmed the results of that steel body. Her teeth, strengthened by decades of sugarcane chewing: the doctor who treated her said her teeth are remarkably strong. Her eyes, maintained by that childhood sadhu&rsquo;s teaching: <H>&ldquo;उससे मेरी आंखें बिल्कुल ठीक है,&rdquo;</H> she states. Her nerves, as the surgeon confirmed, are very good. Recent health scare aside, the foundation built in childhood continued supporting her eighth decade.
+            Medical professionals confirmed the results of that steel body. Her teeth, strengthened by decades of sugarcane chewing: the doctor who treated her said her teeth are remarkably strong. Her eyes, maintained by that childhood sadhu&rsquo;s teaching: <H>&ldquo;उससे मेरी आंखें बिल्कुल ठीक है,&rdquo;</H> she states. Her nerves, as the surgeon confirmed, are very good. Recent health scare aside, the foundation built in childhood continued supporting her eighth decade.
           </p>
         </section>
 
@@ -801,7 +801,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            The daily spiritual practice at eighty-one showed her current focus: three aartis at 7 AM, writing &ldquo;Jai Shri Krishna&rdquo; two pages daily (four malas), reading Gita, attending Puran discourses. <H>&ldquo;और इस से मुझे बहुत अच्छी शांति मिली है,&rdquo;</H> she testifies&mdash;from this she received very good peace.
+            Her daily spiritual practice showed her focus: three aartis at 7 AM, writing &ldquo;Jai Shri Krishna&rdquo; two pages daily (four malas), reading Gita, attending Puran discourses. <H>&ldquo;और इस से मुझे बहुत अच्छी शांति मिली है,&rdquo;</H> she testifies&mdash;from this she received very good peace.
           </p>
 
           <p className="ls-para">
@@ -847,7 +847,7 @@ function LifeStory() {
           </p>
 
           <p className="ls-para">
-            &ldquo;Do or Die&rdquo; she learned at nineteen. At eighty-one, she still lived it.
+            &ldquo;Do or Die&rdquo; she learned at nineteen. At eighty-four, she still lived it.
           </p>
         </section>
 

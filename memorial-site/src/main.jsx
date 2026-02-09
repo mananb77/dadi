@@ -7,7 +7,7 @@ import LifeStory from './LifeStory.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/dadi">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/lifestory" element={<LifeStory />} />

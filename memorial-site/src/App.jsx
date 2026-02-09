@@ -50,7 +50,7 @@ function Hero() {
 
         <div className="hero-photo-container fade-in">
           <img
-            src="/photos/IMG-20210801-WA0000 Copy.JPG"
+            src={`${import.meta.env.BASE_URL}photos/IMG-20210801-WA0000 Copy.JPG`}
             alt="Dadi in her favorite sky blue saree"
           />
         </div>
@@ -107,7 +107,7 @@ function Bio() {
         <p className="bio-text fade-in">
           Born in Delhi, 1944. Seventh child in her family. Daughter of a
           railway mail guard. A woman who broke barriers, pursued knowledge
-          relentlessly, and dedicated 81 years to service, family, and
+          relentlessly, and dedicated 84 years to service, family, and
           unwavering faith. She lived in railway bungalows, walked kilometers
           to school, and grew up in an era without electricity or running
           water &mdash; yet she never stopped reaching higher. A scholar of
@@ -132,6 +132,114 @@ function Bio() {
         </div>
       </div>
     </section>
+  );
+}
+
+function IndiaMap() {
+  // Approximate positions on a 300x340 viewBox of India outline
+  const cities = [
+    { name: 'Delhi', x: 168, y: 108, primary: true },
+    { name: 'Jodhpur', x: 130, y: 140 },
+    { name: 'Kota', x: 155, y: 148 },
+    { name: 'Ajmer', x: 147, y: 135 },
+    { name: 'Udaipur', x: 140, y: 155 },
+    { name: 'Jaipur', x: 157, y: 128, primary: true },
+  ];
+
+  return (
+    <div className="india-map-container fade-in">
+      <svg viewBox="30 20 270 340" className="india-map" xmlns="http://www.w3.org/2000/svg">
+        {/* Simplified India outline */}
+        <path
+          className="india-outline"
+          d="M168,28 C172,28 180,32 185,38 C190,44 195,48 198,52 C202,56 208,58 212,62
+             C216,66 218,72 220,78 C222,84 225,88 226,92 C228,96 230,100 232,106
+             C234,112 236,118 238,124 C240,130 242,136 242,142 C242,148 240,154 238,160
+             C236,166 232,172 228,178 C224,184 220,190 218,196 C216,202 218,208 220,214
+             C222,220 224,226 224,232 C224,238 222,244 218,250 C214,256 210,262 206,268
+             C202,274 198,280 194,284 C190,288 186,290 182,294 C178,298 174,304 170,310
+             C166,316 164,320 160,324 C156,328 152,330 148,328 C144,326 142,320 140,314
+             C138,308 136,302 132,298 C128,294 124,292 120,288 C116,284 114,278 112,272
+             C110,266 108,260 106,254 C104,248 102,242 100,236 C98,230 96,224 94,218
+             C92,212 88,208 84,204 C80,200 76,196 74,190 C72,184 72,178 74,172
+             C76,166 80,162 84,158 C88,154 90,148 92,142 C94,136 96,130 98,124
+             C100,118 100,112 102,106 C104,100 108,96 112,92 C116,88 120,84 124,80
+             C128,76 132,72 136,68 C140,64 142,58 144,52 C146,46 150,42 154,38
+             C158,34 162,30 168,28 Z"
+          fill="none"
+          stroke="var(--sky-blue-deep)"
+          strokeWidth="1.5"
+          opacity="0.4"
+        />
+        {/* India filled shape - very light */}
+        <path
+          d="M168,28 C172,28 180,32 185,38 C190,44 195,48 198,52 C202,56 208,58 212,62
+             C216,66 218,72 220,78 C222,84 225,88 226,92 C228,96 230,100 232,106
+             C234,112 236,118 238,124 C240,130 242,136 242,142 C242,148 240,154 238,160
+             C236,166 232,172 228,178 C224,184 220,190 218,196 C216,202 218,208 220,214
+             C222,220 224,226 224,232 C224,238 222,244 218,250 C214,256 210,262 206,268
+             C202,274 198,280 194,284 C190,288 186,290 182,294 C178,298 174,304 170,310
+             C166,316 164,320 160,324 C156,328 152,330 148,328 C144,326 142,320 140,314
+             C138,308 136,302 132,298 C128,294 124,292 120,288 C116,284 114,278 112,272
+             C110,266 108,260 106,254 C104,248 102,242 100,236 C98,230 96,224 94,218
+             C92,212 88,208 84,204 C80,200 76,196 74,190 C72,184 72,178 74,172
+             C76,166 80,162 84,158 C88,154 90,148 92,142 C94,136 96,130 98,124
+             C100,118 100,112 102,106 C104,100 108,96 112,92 C116,88 120,84 124,80
+             C128,76 132,72 136,68 C140,64 142,58 144,52 C146,46 150,42 154,38
+             C158,34 162,30 168,28 Z"
+          fill="var(--sky-blue)"
+          opacity="0.12"
+        />
+
+        {/* Route lines connecting cities in order */}
+        <polyline
+          points="168,108 130,140 155,148 147,135 140,155 157,128"
+          fill="none"
+          stroke="var(--gold)"
+          strokeWidth="1"
+          strokeDasharray="4,3"
+          opacity="0.5"
+        />
+
+        {/* City pins */}
+        {cities.map((city) => (
+          <g key={city.name}>
+            {/* Pulse ring for primary cities */}
+            {city.primary && (
+              <circle
+                cx={city.x}
+                cy={city.y}
+                r="8"
+                fill="none"
+                stroke={city.name === 'Jaipur' ? 'var(--gold)' : 'var(--sky-blue-deep)'}
+                strokeWidth="0.5"
+                opacity="0.3"
+              />
+            )}
+            {/* Pin dot */}
+            <circle
+              cx={city.x}
+              cy={city.y}
+              r={city.primary ? 4 : 3}
+              fill={city.name === 'Jaipur' ? 'var(--gold)' : city.name === 'Delhi' ? 'var(--sky-blue-deep)' : 'var(--navy)'}
+              opacity={city.primary ? 1 : 0.7}
+            />
+            {/* City label */}
+            <text
+              x={city.x}
+              y={city.y - 7}
+              textAnchor="middle"
+              className="india-map-label"
+              fill="var(--navy)"
+              fontSize={city.primary ? '8' : '7'}
+              fontWeight={city.primary ? '600' : '400'}
+            >
+              {city.name}
+            </text>
+          </g>
+        ))}
+      </svg>
+    </div>
   );
 }
 
@@ -174,6 +282,8 @@ function Timeline() {
       <div className="section-inner">
         <h2 className="section-title fade-in">Journey Across India</h2>
         <p className="section-title-hindi fade-in">भारत भर में यात्रा</p>
+
+        <IndiaMap />
 
         <div className="timeline-container">
           {stops.map((stop, i) => (
@@ -391,17 +501,18 @@ function Values() {
 }
 
 function Gallery() {
+  const base = import.meta.env.BASE_URL;
   const photos = [
     {
-      src: '/photos/IMG-20210801-WA0000 Copy.JPG',
+      src: `${base}photos/IMG-20210801-WA0000 Copy.JPG`,
       alt: 'Dadi in her favorite sky blue saree',
     },
     {
-      src: '/photos/IMG_1019_Original Copy Copy Copy.JPG',
+      src: `${base}photos/IMG_1019_Original Copy Copy Copy.JPG`,
       alt: 'Dadi — outdoor portrait with shawl',
     },
     {
-      src: '/photos/IMG_1269_Original Copy Copy Copy.JPG',
+      src: `${base}photos/IMG_1269_Original Copy Copy Copy.JPG`,
       alt: 'Dadi — warm smile with glasses',
     },
   ];
@@ -531,7 +642,7 @@ function Closing() {
         <Divider />
 
         <p className="closing-legacy fade-in">
-          She didn&rsquo;t just live 81 years. She lived with purpose, raised
+          She didn&rsquo;t just live 84 years. She lived with purpose, raised
           her family with values, never stopped learning, served everyone
           without expectation, and spent her final years in peaceful devotion.
           Her light continues through all of us.
