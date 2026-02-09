@@ -326,7 +326,7 @@ l30 31 -38 32 c-25 21 -46 31 -60 28 -13 -2 -29 3 -40 15 -18 20 -11 34 21 40
               textAnchor="middle"
               className="india-map-label"
               fill="var(--navy)"
-              fontSize={city.primary ? '14' : '12'}
+              fontSize={city.primary ? '22' : '18'}
               fontWeight={city.primary ? '600' : '400'}
             >
               {city.name}
@@ -674,7 +674,7 @@ function Spiritual() {
         <div className="spiritual-items">
           <div className="spiritual-item fade-in">
             <h3 className="spiritual-item-title">
-              Daily Writing of &ldquo;जय श्री कृष्णा&rdquo; &mdash; 888 times
+              Daily Writing of &ldquo;जय श्री कृष्णा&rdquo; &mdash; 108 times
             </h3>
             <p className="spiritual-hindi">
               &ldquo;रोज़ दो पेज लिखती हूँ — जय श्री कृष्णा। चार माला। इस से मुझे बहुत अच्छी शांति मिली है।&rdquo;
