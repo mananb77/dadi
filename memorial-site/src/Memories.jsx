@@ -65,7 +65,10 @@ function Memories() {
         <h1 className="mem-hero-title">Leave a Memory</h1>
         <p className="mem-hero-hindi">एक याद छोड़ें</p>
         <p className="mem-hero-subtitle">
-          Share what Kalpana meant to you. Choose to display your memory on the board below, or keep it private for just the immediate family to read.
+          Share what Kalpana meant to you &mdash; a happy memory, a lesson she taught you, or a few words of condolence. Choose to display your message on the board below, or keep it private for just the immediate family to read.
+        </p>
+        <p className="mem-hero-subtitle-hindi">
+          कल्पना आपके लिए क्या मायने रखती थीं &mdash; कोई खुशी की याद, उनकी कोई सीख, या श्रद्धांजलि के कुछ शब्द। अपना संदेश नीचे बोर्ड पर दिखाएँ, या सिर्फ़ परिवार के लिए निजी रखें।
         </p>
         <a
           href={GOOGLE_FORM_URL}
@@ -73,7 +76,7 @@ function Memories() {
           rel="noopener noreferrer"
           className="mem-share-btn"
         >
-          Share a Memory
+          Share a Memory or Condolence
         </a>
       </section>
 

@@ -73,9 +73,18 @@
 .mem-hero-subtitle {
   font-size: 1rem;
   color: var(--navy-light);
-  max-width: 440px;
-  margin: 0 auto 1.75rem;
+  max-width: 500px;
+  margin: 0 auto 0.75rem;
   line-height: 1.6;
+}
+
+.mem-hero-subtitle-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1rem;
+  color: var(--gold);
+  max-width: 500px;
+  margin: 0 auto 1.75rem;
+  line-height: 1.8;
 }
 
 .mem-share-btn {

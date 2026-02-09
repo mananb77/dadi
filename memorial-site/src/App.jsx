@@ -71,8 +71,9 @@ function Hero() {
 
         <h1 className="hero-name-hindi fade-in">कल्पना भार्गव</h1>
         <p className="hero-name-english fade-in">Kalpana Bhargava</p>
+        <p className="hero-years fade-in">1944 &ndash; 2026</p>
         <p className="hero-subtitle fade-in">
-          A Life of Purpose, Love &amp; Devotion (1944 &ndash; 2026)
+          A Life of Purpose, Love &amp; Devotion
         </p>
 
         <div className="hero-quote fade-in">
@@ -933,6 +934,59 @@ function Spiritual() {
   );
 }
 
+function ImportantDates() {
+  return (
+    <section className="important-dates" id="dates">
+      <div className="section-inner">
+        <h2 className="section-title fade-in">Important Dates</h2>
+        <p className="section-title-hindi fade-in">महत्वपूर्ण तिथियाँ</p>
+
+        <div className="dates-grid fade-in">
+          <div className="date-card">
+            <div className="date-label">Passing</div>
+            <div className="date-label-hindi">निधन</div>
+            <div className="date-value">February 6, 2026</div>
+          </div>
+          <div className="date-card">
+            <div className="date-label">Chautha (4th Day)</div>
+            <div className="date-label-hindi">चौथा</div>
+            <div className="date-value">February 9, 2026</div>
+          </div>
+          <div className="date-card">
+            <div className="date-label">Daswan (10th Day)</div>
+            <div className="date-label-hindi">दसवाँ</div>
+            <div className="date-value">February 15, 2026</div>
+          </div>
+          <div className="date-card">
+            <div className="date-label">Tehrvi (13th Day)</div>
+            <div className="date-label-hindi">तेरहवीं</div>
+            <div className="date-value">February 18, 2026</div>
+          </div>
+          <div className="date-card">
+            <div className="date-label">Monthly Shraddh</div>
+            <div className="date-label-hindi">मासिक श्राद्ध</div>
+            <div className="date-value">6th of each month</div>
+          </div>
+          <div className="date-card">
+            <div className="date-label">Barsi (1st Anniversary)</div>
+            <div className="date-label-hindi">बरसी</div>
+            <div className="date-value">February 6, 2027</div>
+          </div>
+        </div>
+
+        <a
+          href="https://www.econdolence.com/learning-center/religion-and-culture/hinduism/hinduism-periods-of-mourning"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="dates-link fade-in"
+        >
+          Learn about Hindu mourning practices
+        </a>
+      </div>
+    </section>
+  );
+}
+
 function Diya() {
   const [lit, setLit] = useState(false);
 
@@ -1073,6 +1127,7 @@ function App() {
       <Values />
       <Gallery />
       <Spiritual />
+      <ImportantDates />
       <Closing />
       <Footer />
       <BackToTop />
