@@ -33,6 +33,7 @@ function Nav() {
           <li><a href="#values">Values</a></li>
           <li><a href="#gallery">Photos</a></li>
           <li><a href="#spiritual">Spiritual</a></li>
+          <li><Link to="/memories" style={{ color: 'var(--gold)' }}>Memories</Link></li>
           <li><Link to="/lifestory" style={{ color: 'var(--gold)' }}>Her Story</Link></li>
         </ul>
       </div>
@@ -83,6 +84,9 @@ function Hero() {
           <a href="https://photos.app.goo.gl/QHKtYrbuytDfGmoQA" target="_blank" rel="noopener noreferrer" className="hero-link">
             Dadi Memories
           </a>
+          <Link to="/memories" className="hero-link">
+            Share a Memory
+          </Link>
         </div>
       </div>
     </section>
@@ -721,6 +725,42 @@ function Spiritual() {
   );
 }
 
+function Diya() {
+  const [lit, setLit] = useState(false);
+
+  return (
+    <div className="diya-container fade-in">
+      <button
+        className={`diya ${lit ? 'diya-lit' : ''}`}
+        onClick={() => setLit(true)}
+        aria-label={lit ? 'Diya is lit' : 'Light a diya'}
+      >
+        {lit && (
+          <div className="diya-glow" />
+        )}
+        <div className="diya-flame-wrap">
+          {lit && (
+            <>
+              <div className="diya-flame" />
+              <div className="diya-flame-inner" />
+            </>
+          )}
+          <div className="diya-wick" />
+        </div>
+        {/* Diya bowl */}
+        <svg viewBox="0 0 80 40" className="diya-bowl" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="40" cy="8" rx="28" ry="8" fill={lit ? '#C4A35A' : '#a89070'} />
+          <path d="M12 8 Q12 36 40 36 Q68 36 68 8 Z" fill={lit ? '#b8943e' : '#96806a'} />
+          <ellipse cx="40" cy="8" rx="22" ry="5" fill={lit ? '#e8c96a' : '#b8a890'} opacity="0.6" />
+        </svg>
+      </button>
+      <p className="diya-label">
+        {lit ? 'Diya lit in her memory' : 'Press to light a diya in her memory'}
+      </p>
+    </div>
+  );
+}
+
 function Closing() {
   return (
     <section className="closing" id="closing">
@@ -743,6 +783,8 @@ function Closing() {
           Her light continues through all of us.
         </p>
 
+        <Diya />
+
         <div className="fade-in">
           <p className="closing-om">ॐ शान्ति शान्ति शान्ति</p>
           <p className="closing-shanti">Om Shanti Shanti Shanti</p>
@@ -751,6 +793,18 @@ function Closing() {
         <p className="closing-years fade-in">
           <span>1944</span> &mdash; <span>2026</span>
         </p>
+
+        <a
+          href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1944–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-share fade-in"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style={{marginRight: '0.4rem', verticalAlign: 'middle'}}>
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Share on WhatsApp
+        </a>
       </div>
     </section>
   );
