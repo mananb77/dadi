@@ -13,6 +13,7 @@ function Divider() {
 
 function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -20,21 +21,33 @@ function Nav() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <nav className={`nav ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-inner">
         <div className="nav-title">
           In Loving Memory<span>श्रद्धांजलि</span>
         </div>
-        <ul className="nav-links">
-          <li><a href="#bio">Her Life</a></li>
-          <li><a href="#journey">Journey</a></li>
-          <li><a href="#wisdom">Wisdom</a></li>
-          <li><a href="#values">Values</a></li>
-          <li><a href="#gallery">Photos</a></li>
-          <li><a href="#spiritual">Spiritual</a></li>
-          <li><Link to="/memories" style={{ color: 'var(--gold)' }}>Memories</Link></li>
-          <li><Link to="/lifestory" style={{ color: 'var(--gold)' }}>Her Story</Link></li>
+        <button
+          className={`nav-hamburger ${menuOpen ? 'nav-hamburger-open' : ''}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+        <ul className={`nav-links ${menuOpen ? 'nav-links-open' : ''}`}>
+          <li><a href="#bio" onClick={closeMenu}>Her Life</a></li>
+          <li><a href="#family" onClick={closeMenu}>Family</a></li>
+          <li><a href="#journey" onClick={closeMenu}>Journey</a></li>
+          <li><a href="#wisdom" onClick={closeMenu}>Wisdom</a></li>
+          <li><a href="#values" onClick={closeMenu}>Values</a></li>
+          <li><a href="#gallery" onClick={closeMenu}>Photos</a></li>
+          <li><a href="#spiritual" onClick={closeMenu}>Spiritual</a></li>
+          <li><Link to="/memories" style={{ color: 'var(--gold)' }} onClick={closeMenu}>Memories</Link></li>
+          <li><Link to="/lifestory" style={{ color: 'var(--gold)' }} onClick={closeMenu}>Her Story</Link></li>
         </ul>
       </div>
     </nav>
@@ -82,7 +95,7 @@ function Hero() {
             Best Photos
           </a>
           <a href="https://photos.app.goo.gl/QHKtYrbuytDfGmoQA" target="_blank" rel="noopener noreferrer" className="hero-link">
-            Dadi Memories
+            Dadi Photo Album Memories
           </a>
           <Link to="/memories" className="hero-link">
             Share a Memory
@@ -143,6 +156,169 @@ function Bio() {
             Read Her Full Life Story
             <span className="bio-cta-hindi">उनकी पूरी जीवन कहानी पढ़ें</span>
           </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FamilyTree() {
+  return (
+    <section className="family-tree" id="family">
+      <div className="section-inner">
+        <h2 className="section-title fade-in">Our Family</h2>
+        <p className="section-title-hindi fade-in">हमारा परिवार</p>
+
+        <div className="ft fade-in">
+          {/* Generation 1: Parents */}
+          <div className="ft-gen ft-gen-parents">
+            <div className="ft-node">
+              <span className="ft-name">Shri Ram Bhargava</span>
+              <span className="ft-name-hindi">श्री राम भार्गव</span>
+              <span className="ft-role">Father</span>
+            </div>
+            <span className="ft-amp">&amp;</span>
+            <div className="ft-node">
+              <span className="ft-name">Narayani Bhargava</span>
+              <span className="ft-name-hindi">नारायणी भार्गव</span>
+              <span className="ft-role">Mother</span>
+            </div>
+          </div>
+
+          <div className="ft-connector" />
+
+          {/* Siblings row */}
+          <p className="ft-sibling-label">Their Children</p>
+          <div className="ft-siblings">
+            <div className="ft-sibling">
+              <span className="ft-name">Vijayshankar</span>
+              <span className="ft-name-hindi">विजयशंकर</span>
+            </div>
+            <div className="ft-sibling">
+              <span className="ft-name">Sharada</span>
+              <span className="ft-name-hindi">शारदा</span>
+            </div>
+            <div className="ft-sibling">
+              <span className="ft-name">Shivshankar</span>
+              <span className="ft-name-hindi">शिवशंकर</span>
+            </div>
+            <div className="ft-sibling">
+              <span className="ft-name">Gorishankar</span>
+              <span className="ft-name-hindi">गोरीशंकर</span>
+            </div>
+            <div className="ft-sibling">
+              <span className="ft-name">Shushila</span>
+              <span className="ft-name-hindi">सुशीला</span>
+            </div>
+            <div className="ft-sibling">
+              <span className="ft-name">Harishankar</span>
+              <span className="ft-name-hindi">हरिशंकर</span>
+            </div>
+            <div className="ft-sibling ft-sibling-self">
+              <span className="ft-name">Kalpana</span>
+              <span className="ft-name-hindi">कल्पना</span>
+            </div>
+            <div className="ft-sibling">
+              <span className="ft-name">Kanti</span>
+              <span className="ft-name-hindi">कान्ति</span>
+            </div>
+          </div>
+
+          <div className="ft-connector" />
+
+          {/* Generation 2: Dadi & Dada */}
+          <div className="ft-gen ft-gen-center">
+            <div className="ft-node ft-node-highlight">
+              <span className="ft-name">Kalpana Bhargava</span>
+              <span className="ft-name-hindi">कल्पना भार्गव</span>
+              <span className="ft-years">1944 &ndash; 2026</span>
+            </div>
+            <span className="ft-amp">&amp;</span>
+            <div className="ft-node">
+              <span className="ft-name">Kailash Bhargava</span>
+              <span className="ft-name-hindi">कैलाश भार्गव</span>
+              <span className="ft-role">Husband</span>
+            </div>
+          </div>
+
+          <div className="ft-connector" />
+
+          {/* Generation 3 & 4: Sons, spouses, children */}
+          <div className="ft-branches">
+            {/* Branch 1: Harsh */}
+            <div className="ft-branch">
+              <div className="ft-couple">
+                <div className="ft-node">
+                  <span className="ft-name">Harsh &ldquo;Tinu&rdquo;</span>
+                  <span className="ft-name-hindi">हर्ष &ldquo;टीनू&rdquo;</span>
+                </div>
+                <span className="ft-amp">&amp;</span>
+                <div className="ft-node">
+                  <span className="ft-name">Aparna</span>
+                  <span className="ft-name-hindi">अपर्णा</span>
+                </div>
+              </div>
+              <div className="ft-connector ft-connector-sm" />
+              <div className="ft-grandchildren">
+                <div className="ft-leaf">
+                  <span className="ft-name">Naman</span>
+                  <span className="ft-name-hindi">नमन</span>
+                </div>
+                <div className="ft-leaf">
+                  <span className="ft-name">Manan</span>
+                  <span className="ft-name-hindi">मनन</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Branch 2: Shailendra */}
+            <div className="ft-branch">
+              <div className="ft-couple">
+                <div className="ft-node">
+                  <span className="ft-name">Shailendra &ldquo;Binu&rdquo;</span>
+                  <span className="ft-name-hindi">शैलेन्द्र &ldquo;बीनू&rdquo;</span>
+                </div>
+                <span className="ft-amp">&amp;</span>
+                <div className="ft-node">
+                  <span className="ft-name">Chavi</span>
+                  <span className="ft-name-hindi">छवि</span>
+                </div>
+              </div>
+              <div className="ft-connector ft-connector-sm" />
+              <div className="ft-grandchildren">
+                <div className="ft-leaf">
+                  <span className="ft-name">Vedang</span>
+                  <span className="ft-name-hindi">वेदांग</span>
+                </div>
+                <div className="ft-leaf">
+                  <span className="ft-name">Anisha</span>
+                  <span className="ft-name-hindi">अनीशा</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Branch 3: Bhaiyu */}
+            <div className="ft-branch">
+              <div className="ft-couple">
+                <div className="ft-node">
+                  <span className="ft-name">Bhaiyu</span>
+                  <span className="ft-name-hindi">भैयू</span>
+                </div>
+                <span className="ft-amp">&amp;</span>
+                <div className="ft-node">
+                  <span className="ft-name">Yuthika</span>
+                  <span className="ft-name-hindi">युथिका</span>
+                </div>
+              </div>
+              <div className="ft-connector ft-connector-sm" />
+              <div className="ft-grandchildren">
+                <div className="ft-leaf">
+                  <span className="ft-name">Somya</span>
+                  <span className="ft-name-hindi">सौम्या</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -671,7 +847,7 @@ function Gallery() {
             rel="noopener noreferrer"
             className="gallery-link"
           >
-            &#128156;&ensp;Dadi Memories
+            &#128156;&ensp;Dadi Photo Album Memories
           </a>
           <Link to="/lifestory" className="gallery-link">
             &#128214;&ensp;Read Her Life Story
@@ -679,7 +855,7 @@ function Gallery() {
         </div>
 
         <p className="gallery-note fade-in">
-          Prayer recording coming soon
+          Have photos of Dadi? Add them to the shared album above so everyone can enjoy the memories.
         </p>
       </div>
     </section>
@@ -704,6 +880,16 @@ function Spiritual() {
             <p className="spiritual-english">
               &ldquo;Every day I write two pages — Jai Shri Krishna. Four malas. From this I have received very good peace.&rdquo;
             </p>
+            <div className="jsk-counter">
+              <div className="jsk-number">~9,85,500</div>
+              <p className="jsk-label">
+                Estimated times she wrote &ldquo;Jai Shri Krishna&rdquo;
+              </p>
+              <p className="jsk-label-hindi">
+                अनुमानित बार उन्होंने &ldquo;जय श्री कृष्णा&rdquo; लिखा
+              </p>
+              <p className="jsk-math">108 per day &times; 365 days &times; ~25 years</p>
+            </div>
           </div>
 
           <div className="spiritual-item fade-in">
@@ -837,6 +1023,29 @@ function Closing() {
   );
 }
 
+function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="footer-inner">
+        <div className="footer-links">
+          <Link to="/lifestory" className="footer-link">Her Life Story</Link>
+          <Link to="/memories" className="footer-link">Share a Memory</Link>
+          <a
+            href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1944–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            Share on WhatsApp
+          </a>
+        </div>
+        <p className="footer-family">The Bhargava Family</p>
+        <p className="footer-family-hindi">भार्गव परिवार</p>
+      </div>
+    </footer>
+  );
+}
+
 function App() {
   const containerRef = useScrollReveal();
 
@@ -845,6 +1054,7 @@ function App() {
       <Nav />
       <Hero />
       <Bio />
+      <FamilyTree />
       <Timeline />
       <Quotes />
       <Learner />
@@ -852,6 +1062,7 @@ function App() {
       <Gallery />
       <Spiritual />
       <Closing />
+      <Footer />
     </div>
   );
 }
