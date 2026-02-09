@@ -64,7 +64,7 @@ function LifeStory() {
             Best Photos
           </a>
           <a href="https://photos.app.goo.gl/QHKtYrbuytDfGmoQA" target="_blank" rel="noopener noreferrer">
-            Dadi Memories
+            Dadi Photo Album Memories
           </a>
           <Link to="/">Memorial Home</Link>
         </div>
@@ -892,7 +892,7 @@ function LifeStory() {
               rel="noopener noreferrer"
               className="ls-back-home"
             >
-              Dadi Memories
+              Dadi Photo Album Memories
             </a>
           </div>
           <Link to="/" className="ls-back-home">&larr; Return to Memorial</Link>
