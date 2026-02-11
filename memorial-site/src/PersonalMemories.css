@@ -1,0 +1,234 @@
+/* ========================================
+   PERSONAL MEMORIES PAGE
+   Journal-like, intimate, first-person
+   ======================================== */
+
+.pm {
+  background: #F7F3EC;
+  min-height: 100vh;
+}
+
+/* Nav */
+.pm-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1.5rem;
+  background: rgba(247, 243, 236, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(196, 163, 90, 0.15);
+}
+
+.pm-back {
+  font-size: 1.4rem;
+  color: var(--navy);
+  line-height: 1;
+}
+
+.pm-back:hover {
+  color: var(--gold);
+}
+
+.pm-nav-title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+.pm-hero {
+  padding: 7rem 1.5rem 3rem;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pm-heading {
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+}
+
+.pm-heading-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.3rem;
+  color: var(--gold);
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.pm-intro {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--navy-light);
+  line-height: 2;
+  font-style: italic;
+}
+
+/* Sections */
+.pm-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3.5rem;
+}
+
+.pm-section p {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  color: var(--navy);
+  line-height: 2;
+  margin-bottom: 1.25rem;
+}
+
+.pm-section p em {
+  color: var(--navy-light);
+}
+
+.pm-section-title {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(196, 163, 90, 0.2);
+}
+
+.pm-section-subtitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--gold);
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.pm-subsection {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Pull-quote blockquotes */
+.pm-quote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--gold);
+  background: rgba(196, 163, 90, 0.06);
+  border-radius: 0 8px 8px 0;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--navy);
+  line-height: 2;
+}
+
+/* Closing section */
+.pm-closing {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.pm-closing p {
+  text-align: left;
+}
+
+.pm-closing-sign {
+  text-align: right !important;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.pm-closing-om {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pm-closing-om p {
+  text-align: center;
+  font-family: var(--font-hindi);
+  font-size: 1.5rem;
+  color: var(--gold);
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+
+.pm-back-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: white;
+  border: 1px solid rgba(196, 163, 90, 0.3);
+  border-radius: 8px;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.pm-back-link:hover {
+  background: var(--gold);
+  color: white;
+  border-color: var(--gold);
+}
+
+/* Fade-in overrides for gentler transitions */
+.pm .fade-in {
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .pm-hero {
+    padding: 6rem 1rem 2rem;
+  }
+
+  .pm-heading {
+    font-size: 1.8rem;
+  }
+
+  .pm-heading-hindi {
+    font-size: 1.1rem;
+  }
+
+  .pm-intro {
+    font-size: 1rem;
+  }
+
+  .pm-section {
+    padding: 0 1rem 2.5rem;
+  }
+
+  .pm-section p {
+    font-size: 1rem;
+  }
+
+  .pm-section-title {
+    font-size: 1.5rem;
+  }
+
+  .pm-subsection {
+    font-size: 1.1rem;
+  }
+
+  .pm-quote {
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+  }
+}

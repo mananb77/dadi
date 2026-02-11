@@ -384,6 +384,70 @@
   color: var(--gold);
 }
 
+/* Sensory bio paragraph */
+.bio-text-sensory {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--navy);
+  line-height: 2;
+}
+
+/* Personality trait cards */
+.bio-personality-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio-personality-card {
+  padding: 1.25rem 1.25rem 1rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid rgba(196, 163, 90, 0.2);
+  border-left: 3px solid var(--gold);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bio-personality-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(44, 62, 90, 0.08);
+}
+
+.bio-personality-label {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+.bio-personality-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.8rem;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.bio-personality-desc {
+  font-size: 0.85rem;
+  color: var(--navy-light);
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .bio-personality-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 .bio-cta {
   margin-top: 2.5rem;
   text-align: center;
@@ -419,6 +483,73 @@
 
 .bio-cta-link:hover .bio-cta-hindi {
   color: rgba(255, 255, 255, 0.85);
+}
+
+/* ========================================
+   HER KITCHEN SECTION
+   ======================================== */
+.kitchen {
+  background: white;
+}
+
+.kitchen-text {
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--navy-light);
+  line-height: 1.9;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+}
+
+.kitchen-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .kitchen-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.kitchen-card {
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 1.5rem 1.25rem;
+  border: 1px solid rgba(196, 163, 90, 0.15);
+  border-top: 3px solid var(--gold);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kitchen-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(44, 62, 90, 0.08);
+}
+
+.kitchen-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.15rem;
+}
+
+.kitchen-card-hindi {
+  font-family: var(--font-hindi);
+  font-size: 0.85rem;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.kitchen-card-desc {
+  font-size: 0.85rem;
+  color: var(--navy-light);
+  line-height: 1.65;
 }
 
 /* ========================================

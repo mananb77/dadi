@@ -120,6 +120,34 @@ function Bio() {
     { label: 'Devotee', hindi: 'भक्त' },
   ];
 
+  const personalityCards = [
+    {
+      label: 'Action, Not Words',
+      hindi: 'कर्म, शब्द नहीं',
+      desc: 'She showed love through rotis, not hugs. Through service, not sentiment.',
+    },
+    {
+      label: 'Fierce Independence',
+      hindi: 'दृढ़ स्वतंत्रता',
+      desc: 'She insisted on doing everything herself — to never owe anyone, not even her own children.',
+    },
+    {
+      label: '100% Into Everything',
+      hindi: 'हर काम में पूरा मन',
+      desc: 'Teaching math from memory, rolling rotis, writing pages of Jai Shri Krishna — she held nothing back.',
+    },
+    {
+      label: 'Everyone Eats First',
+      hindi: 'पहले सबको खिलाओ',
+      desc: 'She served rotis throughout every meal, eating only after everyone had finished.',
+    },
+    {
+      label: 'The People Person',
+      hindi: 'लोगों की दीवानी',
+      desc: 'She thrived when the house was full of family, laughter, and chai.',
+    },
+  ];
+
   return (
     <section className="bio" id="bio">
       <div className="section-inner">
@@ -135,6 +163,14 @@ function Bio() {
           water &mdash; yet she never stopped reaching higher. A scholar of
           Economics, an NCC-trained cadet, a mathematics teacher, mother of
           three sons, grandmother, and lifelong learner.
+        </p>
+
+        <p className="bio-text bio-text-sensory fade-in">
+          You picture her in her favorite sky blue saree, the scent of jasmine
+          in the air. Soft, experienced hands that had rolled thousands of rotis.
+          A woman who never said &ldquo;I love you&rdquo; but showed it in every
+          meal she served, every prayer she offered, every sacrifice she made
+          without a word.
         </p>
 
         <p className="bio-text bio-text-hindi fade-in">
@@ -156,11 +192,69 @@ function Bio() {
           ))}
         </div>
 
+        <div className="bio-personality-cards fade-in">
+          {personalityCards.map((card) => (
+            <div className="bio-personality-card" key={card.label}>
+              <span className="bio-personality-label">{card.label}</span>
+              <span className="bio-personality-hindi">{card.hindi}</span>
+              <p className="bio-personality-desc">{card.desc}</p>
+            </div>
+          ))}
+        </div>
+
         <div className="bio-cta fade-in">
           <Link to="/lifestory" className="bio-cta-link">
             Read Her Full Life Story
             <span className="bio-cta-hindi">उनकी पूरी जीवन कहानी पढ़ें</span>
           </Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Kitchen() {
+  const dishes = [
+    {
+      title: 'Roti Sabji',
+      hindi: 'रोटी सब्ज़ी',
+      desc: 'The staple, made again and again. Her hands on the belen, rolling dough — even sitting on the ground in Jaipur. Fresh rotis served one after another, never stopping until everyone was full.',
+    },
+    {
+      title: 'Saak & Namkeen',
+      hindi: 'साक और नमकीन',
+      desc: 'Morning snacks full of spices and different aromas. Nashta that filled the house with warmth before the day had even begun.',
+    },
+    {
+      title: 'Share, Never Waste',
+      hindi: 'बाँटो, बर्बाद नहीं',
+      desc: 'Not a single grain of rice wasted. Food comes from farmers — respect every bit. Always made for everyone, meant to be shared.',
+    },
+  ];
+
+  return (
+    <section className="kitchen" id="kitchen">
+      <div className="section-inner">
+        <h2 className="section-title fade-in">Her Kitchen</h2>
+        <p className="section-title-hindi fade-in">उनकी रसोई</p>
+
+        <p className="kitchen-text fade-in">
+          The aroma of spices before you even entered the room. The sound of
+          dough being rolled on the belen. She moved through her kitchen with
+          quiet composure &mdash; parallel processing, managing everything at
+          once, never a wasted motion. She served everyone before sitting down
+          herself, ate only after the last person had finished, then washed every
+          dish with her own hands. Not a single grain was ever wasted.
+        </p>
+
+        <div className="kitchen-cards fade-in">
+          {dishes.map((dish) => (
+            <div className="kitchen-card" key={dish.title}>
+              <h3 className="kitchen-card-title">{dish.title}</h3>
+              <span className="kitchen-card-hindi">{dish.hindi}</span>
+              <p className="kitchen-card-desc">{dish.desc}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -1158,6 +1252,7 @@ function App() {
       <Nav />
       <Hero />
       <Bio />
+      <Kitchen />
       <FamilyTree />
       <Timeline />
       <Quotes />
