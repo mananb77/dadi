@@ -183,6 +183,17 @@
   font-weight: 500;
 }
 
+/* Transliterated Hindi (Roman script) */
+.ls-hindi-translit {
+  font-family: var(--font-body);
+  font-style: italic;
+}
+
+.ls-pullquote-translit {
+  font-family: var(--font-body);
+  font-style: italic;
+}
+
 /* Pull quotes - her words highlighted */
 .ls-pullquote {
   margin: 2rem 0;
@@ -284,6 +295,43 @@
   background: var(--sky-blue);
   border-color: var(--sky-blue);
   color: var(--navy);
+}
+
+/* Language toggle button */
+.ls-lang-toggle {
+  font-family: var(--font-hindi);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--gold);
+  background: transparent;
+  border: 1.5px solid var(--gold);
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.ls-lang-toggle:hover {
+  background: var(--gold);
+  color: white;
+}
+
+.ls-lang-toggle-en {
+  font-family: var(--font-body);
+}
+
+/* Hindi-mode paragraphs */
+.ls-para-hindi {
+  font-family: var(--font-hindi);
+  font-size: 1.08rem;
+  line-height: 2.1;
+}
+
+/* Hindi-mode chapter titles */
+.ls-chapter-title-hindi {
+  font-family: var(--font-hindi);
 }
 
 /* Responsive */
