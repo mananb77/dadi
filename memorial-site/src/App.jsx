@@ -1252,13 +1252,13 @@ function App() {
       <Nav />
       <Hero />
       <Bio />
-      <Kitchen />
       <FamilyTree />
       <Timeline />
       <Quotes />
       <Learner />
       <Values />
       <Gallery />
+      <Kitchen />
       <Spiritual />
       <ImportantDates />
       <Closing />
