@@ -409,8 +409,8 @@
   background: white;
   border-radius: 10px;
   border: 1px solid rgba(196, 163, 90, 0.2);
-  border-left: 3px solid var(--gold);
-  text-align: left;
+  border-top: 3px solid var(--gold);
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
