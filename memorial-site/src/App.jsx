@@ -92,6 +92,9 @@ function Hero() {
           <a href="https://youtu.be/Vr5SEu2DvKY" target="_blank" rel="noopener noreferrer" className="hero-link">
             &#9654; Lifestory Video
           </a>
+          <a href="https://youtu.be/_Wd5UGzt5WE" target="_blank" rel="noopener noreferrer" className="hero-link">
+            &#9654; Diwali 2022 Pooja
+          </a>
           <a href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9" target="_blank" rel="noopener noreferrer" className="hero-link">
             Best Photos
           </a>
@@ -867,6 +870,14 @@ function Gallery() {
             className="gallery-link"
           >
             &#9654;&ensp;Watch Lifestory Video
+          </a>
+          <a
+            href="https://youtu.be/_Wd5UGzt5WE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gallery-link"
+          >
+            &#9654;&ensp;Diwali 2022 Pooja
           </a>
           <a
             href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9"

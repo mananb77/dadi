@@ -109,6 +109,9 @@ function LifeStory() {
           <a href="https://youtu.be/Vr5SEu2DvKY" target="_blank" rel="noopener noreferrer">
             &#9654; Lifestory Video
           </a>
+          <a href="https://youtu.be/_Wd5UGzt5WE" target="_blank" rel="noopener noreferrer">
+            &#9654; Diwali 2022 Pooja
+          </a>
           <a href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9" target="_blank" rel="noopener noreferrer">
             Best Photos
           </a>
@@ -944,6 +947,14 @@ function LifeStory() {
               className="ls-back-home"
             >
               &#9654;&ensp;Watch Lifestory Video
+            </a>
+            <a
+              href="https://youtu.be/_Wd5UGzt5WE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ls-back-home"
+            >
+              &#9654;&ensp;Diwali 2022 Pooja
             </a>
             <a
               href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9"
