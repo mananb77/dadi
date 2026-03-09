@@ -71,7 +71,7 @@ function Hero() {
 
         <h1 className="hero-name-hindi fade-in">कल्पना भार्गव</h1>
         <p className="hero-name-english fade-in">Kalpana Bhargava</p>
-        <p className="hero-years fade-in">1944 &ndash; 2026</p>
+        <p className="hero-years fade-in">November 8, 1941 &ndash; February 6, 2026</p>
         <p className="hero-subtitle fade-in">
           A Life of Purpose, Love &amp; Devotion
         </p>
@@ -155,7 +155,7 @@ function Bio() {
         <p className="section-title-hindi fade-in">वो कौन थीं</p>
 
         <p className="bio-text fade-in">
-          Born in Delhi, 1944. Seventh child in her family. Daughter of a
+          Born in Delhi, 1941. Seventh child in her family. Daughter of a
           railway mail guard. A woman who broke barriers, pursued knowledge
           relentlessly, and dedicated 84 years to service, family, and
           unwavering faith. She lived in railway bungalows, walked kilometers
@@ -174,7 +174,7 @@ function Bio() {
         </p>
 
         <p className="bio-text bio-text-hindi fade-in">
-          दिल्ली में जन्म, 1944। परिवार की सातवीं संतान। रेलवे मेल गार्ड की
+          दिल्ली में जन्म, 1941। परिवार की सातवीं संतान। रेलवे मेल गार्ड की
           बेटी। एक ऐसी महिला जिसने बाधाओं को तोड़ा, अथक रूप से ज्ञान की खोज
           की, और 84 वर्ष सेवा, परिवार और अटूट आस्था को समर्पित किए। वे रेलवे
           बंगलों में रहीं, किलोमीटरों पैदल चलकर स्कूल गईं, और बिना बिजली या
@@ -330,7 +330,7 @@ function FamilyTree() {
             <div className="ft-node ft-node-highlight">
               <span className="ft-name">Kalpana Bhargava</span>
               <span className="ft-name-hindi">कल्पना भार्गव</span>
-              <span className="ft-years">1944 &ndash; 2026</span>
+              <span className="ft-years">1941 &ndash; 2026</span>
             </div>
             <span className="ft-amp">&amp;</span>
             <div className="ft-node">
@@ -630,7 +630,7 @@ l30 31 -38 32 c-25 21 -46 31 -60 28 -13 -2 -29 3 -40 15 -18 20 -11 34 21 40
 function Timeline() {
   const stops = [
     {
-      years: '1944 – 1967',
+      years: '1941 – 1967',
       city: 'Delhi',
       desc: 'Childhood in Dariba Kalan, Old Delhi. Education from school through BA Honours Economics at Ramjas College and MA Economics. Three years of NCC training. The foundation of everything.',
       hindi: 'दरीबा कलां, पुरानी दिल्ली में बचपन। स्कूल से लेकर रामजस कॉलेज से बीए ऑनर्स अर्थशास्त्र और एमए अर्थशास्त्र तक की शिक्षा। तीन वर्ष का एनसीसी प्रशिक्षण। सब कुछ की नींव।',
@@ -1194,7 +1194,7 @@ function Closing() {
         </div>
 
         <p className="closing-years fade-in">
-          <span>1944</span> &mdash; <span>2026</span>
+          <span>1941</span> &mdash; <span>2026</span>
         </p>
       </div>
     </section>
@@ -1209,7 +1209,7 @@ function Footer() {
           <Link to="/lifestory" className="footer-link">Her Life Story</Link>
           <Link to="/memories" className="footer-link">Share a Memory</Link>
           <a
-            href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1944–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
+            href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1941–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"

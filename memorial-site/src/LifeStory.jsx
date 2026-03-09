@@ -932,9 +932,9 @@ function LifeStory() {
             {lang === 'hi' ? hiContent.closing.meta1c : 'A life documented, a philosophy preserved, a legacy continued'}
           </p>
           <p className="ls-closing-meta" style={{ marginTop: '1rem' }}>
-            {lang === 'hi' ? hiContent.closing.meta2 : <>Born Delhi, 1944 &bull; Mother of three &bull; Grandmother &bull; Great-grandmother</>}
+            {lang === 'hi' ? hiContent.closing.meta2 : <>Born Delhi, 1941 &bull; Mother of three &bull; Grandmother &bull; Great-grandmother</>}
             <br />
-            {lang === 'hi' ? hiContent.closing.meta2b : <>1944 &ndash; 2026</>}
+            {lang === 'hi' ? hiContent.closing.meta2b : <>1941 &ndash; 2026</>}
           </p>
           <p className={`ls-closing-om${lang === 'en-tr' ? ' ls-hindi-translit' : ''}`} style={{ marginTop: '1.5rem', fontSize: '1.2rem' }}>
             {lang === 'en-tr' ? 'Om Shanti Shanti Shanti' : 'ॐ शान्ति शान्ति शान्ति'}
@@ -984,7 +984,7 @@ function LifeStory() {
             <Link to="/" className="ls-footer-link">Memorial Home</Link>
             <Link to="/memories" className="ls-footer-link">Share a Memory</Link>
             <a
-              href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1944–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
+              href={`https://wa.me/?text=${encodeURIComponent('In loving memory of Kalpana Bhargava (1941–2026). A life of purpose, strength, and devotion.\n\nhttps://mananb77.github.io/dadi/')}`}
               target="_blank"
               rel="noopener noreferrer"
               className="ls-footer-link"
