@@ -92,6 +92,9 @@ function Hero() {
           <a href="https://youtu.be/Vr5SEu2DvKY" target="_blank" rel="noopener noreferrer" className="hero-link">
             &#9654; Lifestory Video
           </a>
+          <a href="https://docs.google.com/presentation/d/1s7iqiODyZZSxSh6blGaxqbdASekivzs2cqECtDoLD2o/edit" target="_blank" rel="noopener noreferrer" className="hero-link">
+            Life Story Slides
+          </a>
           <a href="https://photos.app.goo.gl/njNxdR8tnVYrUKhU9" target="_blank" rel="noopener noreferrer" className="hero-link">
             Best Photos
           </a>
