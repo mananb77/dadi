@@ -1,16 +1,24 @@
-# React + Vite
+# In Loving Memory of Kalpana Bhargava (1941-2026)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A memorial website dedicated to the life, legacy, and memories of Kalpana Bhargava (Dadi) — a woman of purpose, strength, and devotion.
 
-Currently, two official plugins are available:
+Built with love by the Bhargava family.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pages
 
-## React Compiler
+- **/** — Main memorial page with her life story, family tree, journey across India, values, spiritual practices, and more
+- **/lifestory** — Her full life story in English, Hindi, and transliterated Hindi
+- **/memories** — A shared memory board where family and friends can submit memories and condolences
+- **/grandkids** — Personal memories from her grandchildren
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech
 
-## Expanding the ESLint configuration
+React + Vite, deployed via GitHub Pages.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Development
+
+```bash
+cd memorial-site
+npm install
+npm run dev
+```
