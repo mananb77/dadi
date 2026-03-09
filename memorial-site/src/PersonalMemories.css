@@ -135,6 +135,38 @@
   line-height: 2;
 }
 
+/* Sensory grid */
+.pm-sensory-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.pm-sensory-card {
+  background: white;
+  border: 1px solid rgba(196, 163, 90, 0.15);
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.pm-sensory-label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.pm-sensory-card p {
+  font-size: 0.95rem !important;
+  line-height: 1.7 !important;
+  margin-bottom: 0 !important;
+}
+
 /* Closing section */
 .pm-closing {
   text-align: center;
@@ -230,5 +262,9 @@
   .pm-quote {
     font-size: 1rem;
     padding: 0.75rem 1rem;
+  }
+
+  .pm-sensory-grid {
+    grid-template-columns: 1fr;
   }
 }
